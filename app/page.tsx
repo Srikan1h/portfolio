@@ -1,31 +1,57 @@
 import Link from "next/link";
+import Image from "next/image";
+import logo from "@/app/assets/img/map-light.webp"
+import gif from "@/app/assets/img/unnamed.gif"
+
 
 
 export default function Home() {
   return (
-    <div className="w-140 mx-auto py-8 px-3">
+    <div className="w-150 mx-auto py-8 px-3">
       <div className="container flex items-center justify-between border-neutral-700 border-b-1 pb-3 px-1">
   <div className="title">
-    <span className="font-sans text-xl">Sai Srikanth</span>
+    <span className="font-sans text-xl font-semibold
+">Sai Srikanth</span>
   </div>
 
- {/* <ul className="flex gap-6">
+ <ul className="flex gap-6">
     <li className="">
-      <Link className="" href="./">About</Link>
+      <Link className="" href="./">Projects</Link>
     </li>
-    <li>Contact</li>
-  </ul>*/}
+    <li>
+      <Link className="" href="./">Writings</Link>
+
+    </li>
+    <li>
+      <Link className="" href="./">Music</Link>
+
+    </li>
+  </ul>
   </div>
 
   <section>
     <div className="py-5 border-b-1 border-neutral-700 px-1">
-      <p>Hey! I’m Sai Srikanth — someone who loves figuring out how things work, especially in the world of technology. I enjoy building small projects, experimenting with code, and learning new concepts that help me improve as a developer and creator.</p>
+
+
+      <article>
+  <Image width={240} height={190} alt="hero banner" className="float-right ml-5 rounded-sm" src={gif} />
+      <p className="text-justify
+">Hey! I’m Sai Srikanth — someone who loves figuring out how things work, especially in the world of technology. I enjoy building small projects, experimenting with code, and learning new concepts that help me improve as a developer and creator.</p>
 <br />
-<p>I’m inspired by modern tech products, creative design, and startups that solve real-world problems. I believe in growing through learning, sharing, and constant curiosity.
+<p className="text-justify
+">I’m inspired by modern tech products, creative design, and startups that solve real-world problems. I believe in growing through learning, sharing, and constant curiosity.
 </p>
 <br />
-<p>
-  When I’m not coding or exploring new tech, you’ll find me brainstorming product ideas, watching tech breakdowns, or learning something new that sparks my interest.</p>
+<p className="text-justify
+">
+  When I’m not coding or exploring new tech, you’ll find me brainstorming product ideas, watching tech breakdowns, or learning something new that sparks my interest.
+  </p>
+</article>
+
+
+
+
+
 
 
     </div>
