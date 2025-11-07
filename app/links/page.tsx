@@ -10,12 +10,12 @@ export default function Links() {
     <div className="sm:w-150  mx-auto py-4 sm:py-8 px-4 sm:px-3">
       <div className="container sm:flex items-center justify-between border-neutral-700 sm:border-b-1 pb-3 px-1">
   <div className="title">
-    <Link href="./" className="font-sans text-xl font-semibold">Sai Srikanth</Link>
+    <Link href="./" className="font-sans text-2xl font-semibold">Sai Srikanth</Link>
   </div>
 
  <ul className="flex gap-6 py-3 sm:py-0 border-neutral-700 border-b-1 sm:border-0">
     <li className="">
-      <Link className="text-gray-400" href="./">Projects</Link>
+      <Link className="text-gray-400" href="./projects">Projects</Link>
     </li>
      <li className="">
       <Link className="text-gray-400" href="./">Blog</Link>
@@ -29,7 +29,7 @@ export default function Links() {
 
     </li>
     <li>
-      <Link className="text-gray-400" href="./">Links</Link>
+      <Link className="text-gray-200" href="./links">Links</Link>
 
     </li>
   </ul>
