@@ -7,6 +7,8 @@ import gif from "@/app/assets/img/unnamed.gif"
 
 export default function Home() {
   return (
+
+    
     <div className="sm:w-150  mx-auto py-4 sm:py-8 px-4 sm:px-3">
       <div className="container sm:flex items-center justify-between border-neutral-700 sm:border-b-1 pb-3 px-1">
   <div className="title">
@@ -36,12 +38,43 @@ export default function Home() {
   </div>
 
   <section>
-    <div className="pb-4 sm:py-5 border-b-1 border-neutral-700 px-1">
+    <div className="flex justify-left py-3 bg-transparent">
+  <div className="flex relative">
 
+    <a href="#" className="group relative z-10 w-5 h-5 bg-black rounded-full border-2 border-neutral-600 shadow-xl transition-all duration-300 focus:bg-neutral-100 focus:text-black hover:border-neutral-400 hover:-translate-y-2 flex items-center justify-center text-white font-normal font-xs p-5">
+      1
+    </a>
 
-      <article className="">
+    <a href="#" className="group relative z-20 -ml-[9px] w-5 h-5 rounded-full bg-black rounded-full border-2 border-neutral-600 shadow-xl transition-all duration-300 focus:bg-neutral-100 focus:text-black hover:border-neutral-400 hover:-translate-y-2 flex items-center justify-center text-white font-normal font-xs p-5">
+      2
+    </a>
+
+    <a href="#" className="group relative z-30 -ml-[9px] w-5 h-5 rounded-full bg-black rounded-full border-2 border-neutral-600 shadow-xl transition-all duration-300 focus:bg-neutral-100 focus:text-black hover:border-neutral-400 hover:-translate-y-2 flex items-center justify-center text-white font-normal font-xs p-5">
+      3
+    </a>
+
+    <a href="#" className="group relative z-40 -ml-[9px] w-5 h-5 rounded-full bg-black rounded-full border-2 border-neutral-600 shadow-xl transition-all duration-300 focus:bg-neutral-100 focus:text-black hover:border-neutral-400 hover:-translate-y-2 flex items-center justify-center text-white font-normal font-xs p-5">
+      4
+    </a>
+
+   
+
+  </div>
+</div>
+  </section>
+  
+
+  <section>
+    <div className="pb-4 sm:py-5 px-1">
+       <div className="title">
+    <h1 className="font-sans text-2xl text-white font-semibold">Hi, I'm Sai Srikanth</h1>
+    <p className="font-sans text-base text-neutral-300 font-normal mt-2 mb-4">Full Stack Dev</p>
+
+  </div>
+
+      <article className="border-y-1 py-6 border-neutral-800 ">
   <Image width={250} height={190} alt="hero banner" className="w-100 sm:w-72 px-auto sm:float-right sm:ml-5 rounded-sm mb-4" src={gif} />
-      <p className="">
+      <p className="text-neutral-300">
         Hey! I’m Sai Srikanth — someone who loves figuring out how things work, especially in the world of technology. I enjoy building small projects, experimenting with code, and learning new concepts that help me improve as a developer and creator.
       </p>
 <br />
