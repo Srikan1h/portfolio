@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import MenuStack from './components/MenuStack';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -25,9 +26,25 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`\
+          ${geistSans.variable} \
+          ${geistMono.variable} \
+          antialiased \
+          sm:w-150 mx-auto py-4 sm:py-8 px-4 sm:px-3`
+        }
       >
-        {children}
+
+        <header>
+          {/* 2. Place the MenuStack component here */}
+          <MenuStack />
+        </header>
+
+        <main>
+          {children}
+        </main>
+
+        
+        
       </body>
     </html>
   );
