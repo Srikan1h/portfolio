@@ -1,8 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
-import logo from "@/app/assets/img/map-light.webp"
-import gif from "@/app/assets/img/unnamed.gif"
-
 
 
 export default function Home() {
@@ -65,27 +61,22 @@ export default function Home() {
   
 
   <section>
-    <div className="pb-4 sm:py-5 px-1">
-       <div className="title">
-    <h1 className="font-sans text-2xl text-white font-semibold">Hi, I'm Sai Srikanth</h1>
-    <p className="font-sans text-base text-neutral-300 font-normal mt-2 mb-4">Full Stack Dev</p>
+    <div className="pb-7 sm:py-5 ">
 
-  </div>
-
-      <article className="border-y-1 py-6 border-neutral-800 ">
-  <Image width={250} height={190} alt="hero banner" className="w-100 sm:w-72 px-auto sm:float-right sm:ml-5 rounded-sm mb-4" src={gif} />
-      <p className="text-neutral-300">
-        Someone who loves figuring out how things work, especially in the world of technology. I enjoy building small projects, experimenting with code, and learning new concepts that help me improve as a developer and creator.
-      </p>
-<br />
-<p className="text-neutral-300">
-  I’m inspired by modern tech products, creative design, and startups that solve real-world problems. I believe in growing through learning, sharing, and constant curiosity.
-</p>
-<br />
-<p className="text-neutral-300">
-  When I’m not coding or exploring new tech, you’ll find me brainstorming product ideas, watching tech breakdowns, or learning something new that sparks my interest.
-  </p>
-</article>
+      <article className="py-3">
+        <p className="text-neutral-300">
+          I am a software developer. I build web applications, explore Machine Learning, and actively invest in financial markets. I love the internet, and <u>kanth.in</u> serves as my public key on the Web 2.0 space.
+        </p>
+          {/*<div className="links pt-3">
+            <Link className=" text-sm text-neutral-500" href="">
+              GitHub
+            </Link>
+            <br />
+            <Link className=" text-sm text-neutral-500" href="">
+              X.com
+            </Link>
+          </div>*/}
+      </article>
 
 
 
@@ -96,19 +87,7 @@ export default function Home() {
     </div>
     
   </section>
-  <footer>
-    <div className="flex py-3 justify-between">
-      <div>
-        <span className="text-neutral-500 ">© kanth.in</span>
-      </div>
-
-      <div className="flex w-auto">
-      <Link className="break-all" href="">
-
-      </Link>
-      </div>
-    </div>
-  </footer>
+  
 </div>
 
   );
