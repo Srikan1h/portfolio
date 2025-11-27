@@ -65,7 +65,7 @@ export default function Home() {
 
       <article className="py-3">
         <p className="text-neutral-300">
-          I am a software developer. I build web applications, explore Machine Learning, and actively invest in financial markets. I love the internet, and <u>kanth.in</u> serves as my public key on the Web 2.0 space.
+          I am a software developer. I build web applications, experiment with Machine Learning Models, and actively invest in financial markets. I love the internet, and <u>kanth.in</u> serves as my public key on the Web 2.0 space.
         </p>
           {/*<div className="links pt-3">
             <Link className=" text-sm text-neutral-500" href="">
