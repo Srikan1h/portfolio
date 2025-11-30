@@ -14,10 +14,112 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+
+
+
+
 export const metadata: Metadata = {
-  title: "Sai Srikanth",
-  description: "My Web Page",
+  metadataBase: new URL("https://yourdomain.com"),
+
+  title: {
+    default: "Developer/ Tinkerer/ Competitive programmer",
+    template: "%s | Sai Srikanth",
+  },
+
+  description:
+    "This webpage serves as my home on the internet.",
+
+  keywords: [
+    "Sai Srikanth",
+    "Sai",
+    "Srikanth",
+    "kanth",
+    "sreekanth",
+    "Machine learning",
+    "Software engineer",
+    "Intern",
+    "Venture capital",
+    "expert",
+    "Computer science",
+    "SRM Institute of Science and Technology",
+    "SRMIST",
+    "Hackathon winner",
+    "investor",
+    "software developer",
+    "competitive programming",
+    "CSE student",
+    "projects",
+    "web development",
+    "Jezh Technologies",
+    "Adarsh Vidya Kendra",
+    "Chennai",
+    "Tech enthusiast",
+    "Google",
+    "Personal website",
+    "portfolio",
+    "Inspiration",
+  ],
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+      "max-snippet": -1,
+    },
+  },
+
+  authors: [
+    {
+      name: "Sai Srikanth",
+      url: "https://kanth.in",
+    },
+  ],
+
+  openGraph: {
+    title: "Sai Srikanth - Personal webpage",
+    description:
+      "Developer/ Tinkerer/ Competitive programmer",
+    url: "https://kanth.in",
+    siteName: "Sai Srikanth",
+    type: "website",
+    images: [
+      {
+        url: "https://pbs.twimg.com/profile_images/1982315320950849536/yNc3JWWi_400x400.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Sai Srikanth - Personal webpage",
+      },
+    ],
+
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Sai Srikanth - Personal webpage",
+    description:
+      "Developer/ Tinkerer/ Competitive programmer",
+    images: ["https://pbs.twimg.com/profile_images/1982315320950849536/yNc3JWWi_400x400.jpg"],
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+  },
+
+  alternates: {
+    canonical: "https://kanth.in",
+  },
 };
+
+
+
+
+
+
+
 
 export default function RootLayout({
   children,

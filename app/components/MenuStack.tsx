@@ -16,7 +16,7 @@ function MenuStack() {
     
 
     <li>
-      <Link className="text-neutral-400 text-base" href="/links">Socials</Link>
+      <Link className="text-neutral-400 text-base" href="/contact">Socials</Link>
 
     </li>
   </ul>

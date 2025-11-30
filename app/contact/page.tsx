@@ -1,11 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
-import logo from "@/app/assets/img/map-light.webp"
-import gif from "@/app/assets/img/unnamed.gif"
 
-
-
-export default function Links() {
+export default function contact() {
   return (
     <div className="">
 
