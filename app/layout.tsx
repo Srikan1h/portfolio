@@ -81,7 +81,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Sai Srikanth",
-      url: "https://kanth.in",
+      url: "https://www.kanth.in",
     },
   ],
 
@@ -89,7 +89,7 @@ export const metadata: Metadata = {
     title: "Sai Srikanth - My Personal webpage",
     description:
       "Developer/ Tinkerer/ Competitive programmer",
-    url: "https://kanth.in",
+    url: "https://www.kanth.in",
     siteName: "Sai Srikanth",
     type: "website",
     images: [
@@ -116,7 +116,7 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://kanth.in",
+    canonical: "https://www.kanth.in",
   },
 };
 
