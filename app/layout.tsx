@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://yourdomain.com"),
+  metadataBase: new URL("https://www.kanth.in"),
 
   title: {
     default: "Sai Srikanth - My Personal webpage",
@@ -31,6 +31,7 @@ export const metadata: Metadata = {
 
   keywords: [
     "Sai Srikanth",
+    "builder",
     "Sai",
     "Srikanth",
     "kanth",
@@ -38,6 +39,8 @@ export const metadata: Metadata = {
     "Machine learning",
     "Software engineer",
     "Intern",
+    "Investor",
+    "teen investor",
     "Venture capital",
     "expert",
     "Computer science",
@@ -58,6 +61,9 @@ export const metadata: Metadata = {
     "Personal website",
     "portfolio",
     "Inspiration",
+    "softmerise",
+    "Student",
+    "Enterpreneur"
   ],
 
   robots: {
