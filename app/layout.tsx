@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://yourdomain.com"),
 
   title: {
-    default: "Developer/ Tinkerer/ Competitive programmer",
+    default: "Sai Srikanth - My Personal webpage",
     template: "%s | Sai Srikanth",
   },
 
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: "Sai Srikanth - Personal webpage",
+    title: "Sai Srikanth - My Personal webpage",
     description:
       "Developer/ Tinkerer/ Competitive programmer",
     url: "https://kanth.in",
@@ -99,7 +99,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Sai Srikanth - Personal webpage",
+    title: "Sai Srikanth - My Personal webpage",
     description:
       "Developer/ Tinkerer/ Competitive programmer",
     images: ["https://pbs.twimg.com/profile_images/1982315320950849536/yNc3JWWi_400x400.jpg"],
