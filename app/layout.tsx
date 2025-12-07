@@ -22,14 +22,15 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.kanth.in"),
 
   title: {
-    default: "Sai Srikanth - My Personal webpage",
+    default: "Sai Srikanth",
     template: "%s | Sai Srikanth",
   },
 
   description:
-    "This webpage serves as my home on the internet.",
+    "Sai Srikanth - Software Tinkerer / My Personal Webpage",
 
   keywords: [
+    "kanth",
     "Sai Srikanth",
     "builder",
     "Sai",
@@ -86,9 +87,9 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: "Sai Srikanth - My Personal webpage",
+    title: "Sai Srikanth",
     description:
-      "Developer/ Tinkerer/ Competitive programmer",
+      "Sai Srikanth - Software Tinkerer / My Personal Webpage",
     url: "https://www.kanth.in",
     siteName: "Sai Srikanth",
     type: "website",
@@ -105,9 +106,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Sai Srikanth - My Personal webpage",
+    title: "Sai Srikanth",
     description:
-      "Developer/ Tinkerer/ Competitive programmer",
+      "Sai Srikanth - Software Tinkerer / My Personal Webpage",
     images: ["https://pbs.twimg.com/profile_images/1982315320950849536/yNc3JWWi_400x400.jpg"],
   },
 
