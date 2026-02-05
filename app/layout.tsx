@@ -115,9 +115,10 @@ export const metadata: Metadata = {
     images: ["https://pbs.twimg.com/profile_images/1982315320950849536/yNc3JWWi_400x400.jpg"],
   },
 
-  icons: {
-    icon: "/favicon.ico",
-  },
+ icons: {
+  icon: "/favicon-32x32.png",
+  apple: "/apple-icon.png",
+},
 
   alternates: {
     canonical: "https://www.kanth.in",
