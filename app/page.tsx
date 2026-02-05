@@ -13,17 +13,8 @@ export default function Home() {
 
       <article className="py-2">
         <p className="text-xl text-neutral-300">
-          I'm currently a CS under grad. I build web applications, experiment with Machine Learning Models, and actively invest in financial markets. I love the internet, and <a className="text-blue-500" href="https://kanth.in">kanth.in</a> serves as my public key on the Web2 space.
+          I’m currently a CS undergrad. I build web applications, experiment with Machine Learning Models, and actively invest in financial markets. I love the internet, and <a className="text-blue-500" href="https://kanth.in">kanth.in</a> serves as my public key in the Web2 space.
         </p>
-          {/*<div className="links pt-3">
-            <Link className=" text-sm text-neutral-500" href="">
-              GitHub
-            </Link>
-            <br />
-            <Link className=" text-sm text-neutral-500" href="">
-              X.com
-            </Link>
-          </div>*/}
       </article>
 
 
