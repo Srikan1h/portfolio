@@ -1,19 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import MenuStack from './components/MenuStack';
 import Footer from "./components/Footer";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-inter",
 });
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 
 
 
@@ -27,11 +21,11 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Sai Srikanth - Software Tinkerer / My Personal Webpage",
+    "Sai Srikanth",
 
   keywords: [
-    "kanth",
     "Sai Srikanth",
+    "kanth",
     "builder",
     "Sai",
     "Srikanth",
@@ -92,7 +86,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sai Srikanth",
     description:
-      "Sai Srikanth - Software Tinkerer / My Personal Webpage",
+      "Sai Srikanth",
     url: "https://www.kanth.in",
     siteName: "Sai Srikanth",
     type: "website",
@@ -101,7 +95,7 @@ export const metadata: Metadata = {
         url: "https://pbs.twimg.com/profile_images/1982315320950849536/yNc3JWWi_400x400.jpg",
         width: 1200,
         height: 630,
-        alt: "Sai Srikanth - Personal webpage",
+        alt: "Sai Srikanth",
       },
     ],
 
@@ -111,7 +105,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sai Srikanth",
     description:
-      "Sai Srikanth - Software Tinkerer / My Personal Webpage",
+      "Sai Srikanth",
     images: ["https://pbs.twimg.com/profile_images/1982315320950849536/yNc3JWWi_400x400.jpg"],
   },
 
@@ -140,13 +134,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`\
-          ${geistSans.variable} \
-          ${geistMono.variable} \
-          antialiased \
-          sm:w-150 mx-auto py-4 sm:py-8 px-4 sm:px-3`
-        }
-      >
+  className={`\
+    ${inter.variable} \
+    antialiased \
+    sm:w-150 mx-auto py-4 sm:py-8 px-4 sm:px-3`
+  }
+>
 
         <header>
           {/* 2. Place the MenuStack component here */}
