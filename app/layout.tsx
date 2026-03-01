@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
-import MenuStack from './components/MenuStack';
+import MenuStack from "./components/MenuStack";
 import Footer from "./components/Footer";
 import "./globals.css";
 
@@ -9,11 +9,8 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-
-
-
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.kanth.in"),
+  metadataBase: new URL("https://kanth.in"),
 
   title: {
     default: "Sai Srikanth",
@@ -21,137 +18,72 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Sai Srikanth",
+    "Sai Srikanth — Software Engineer, Competitive Programmer, Builder.",
 
   keywords: [
     "Sai Srikanth",
-    "kanth",
-    "builder",
-    "Sai",
-    "Srikanth",
-    "srikaaaanth",
-    "srikan1h",
-    "Srikan1h",
-    "kanth",
-    "sreekanth",
-    "Machine learning",
-    "Software engineer",
-    "Intern",
-    "Investor",
-    "teen investor",
-    "Venture capital",
-    "expert",
-    "Computer science",
-    "SRM Institute of Science and Technology",
-    "SRMIST",
-    "Hackathon winner",
-    "investor",
-    "software developer",
-    "competitive programming",
-    "CSE student",
-    "projects",
-    "web development",
-    "Jezh Technologies",
-    "Adarsh Vidya Kendra",
-    "Chennai",
-    "Tech enthusiast",
-    "Google",
-    "Personal website",
-    "portfolio",
-    "Inspiration",
-    "softmerise",
-    "Student",
-    "Enterpreneur"
+    "Software Engineer",
+    "Competitive Programming",
+    "Web Developer",
+    "Machine Learning",
+    "Portfolio",
   ],
+
+  authors: [{ name: "Sai Srikanth" }],
 
   robots: {
     index: true,
     follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-image-preview": "large",
-      "max-video-preview": -1,
-      "max-snippet": -1,
-    },
   },
-
-  authors: [
-    {
-      name: "Sai Srikanth",
-      url: "https://www.kanth.in",
-    },
-  ],
 
   openGraph: {
     title: "Sai Srikanth",
     description:
-      "Sai Srikanth",
-    url: "https://www.kanth.in",
+      "Software Engineer and Competitive Programmer.",
+    url: "https://kanth.in",
     siteName: "Sai Srikanth",
     type: "website",
-    images: [
-      {
-        url: "https://pbs.twimg.com/profile_images/1982315320950849536/yNc3JWWi_400x400.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Sai Srikanth",
-      },
-    ],
-
   },
 
   twitter: {
     card: "summary_large_image",
     title: "Sai Srikanth",
     description:
-      "Sai Srikanth",
-    images: ["https://pbs.twimg.com/profile_images/1982315320950849536/yNc3JWWi_400x400.jpg"],
+      "Software Engineer and Competitive Programmer.",
   },
 
- icons: {
-  icon: "/favicon-32x32.png",
-  apple: "/apple-icon.png",
-},
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 
   alternates: {
-    canonical: "https://www.kanth.in",
+    canonical: "https://kanth.in",
   },
 };
 
-
-
-
-
-
-
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body
-  className={`\
-    ${inter.variable} \
-    antialiased \
-    sm:w-150 mx-auto py-4 sm:py-8 px-4 sm:px-3`
-  }
->
-
+        className={`${inter.variable} antialiased max-w-3xl mx-auto py-6 px-4`}
+      >
         <header>
-          {/* 2. Place the MenuStack component here */}
           <MenuStack />
         </header>
 
-        <main className="p-2">
-          {children}
-        </main>
-        <Footer/>
-        
-        
+        <main className="mt-4 px-2">{children}</main>
+
+        <Footer />
       </body>
     </html>
   );
