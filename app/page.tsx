@@ -6,105 +6,39 @@ export default function Home() {
       <section>
         <div className="pb-7 sm:py-2 ">
           
-          <article className="py-2">
-            <p className="text-xl text-neutral-300">
-              I’m currently a CS undergrad. I build web applications, 
-              experiment with Machine Learning Models, and actively invest 
-              in financial markets. I love the internet, and{" "}
-              <a className="text-blue-500" href="https://kanth.in">
-                kanth.in
-              </a>{" "}
-              serves as my public key in the Web2 space.
+          <article className="py-2 text-xl text-neutral-300">
+            <p>I love building things on the internet.</p>
+            <p>
+                Keenly focused on full-stack systems, machine learning, and financial markets. 
+            </p>
+            <p >
+              In the AI era, the bottleneck for most businesses isn’t ideas but,it’s execution across their digital journey. {" "}<a className="text-blue-400" href="https://linkedin.com/company/softmerise">
+                Softmerise
+              </a>{" "} is my current attempt at reducing that friction.
+            </p>
+
+            <p>
+              I enjoy conversations, listening to different perspectives, and asking questions.
+Always open to ideas and learning.
             </p>
           </article>
 
-          <br />
+          <div className="grid grid-flow-row auto-rows-max text-neutral-400 py-5">
 
-          <div className="grid grid-flow-row auto-rows-max">
+            <p >⟶ Connect [<Link href="https://linkedin.com/in/saisrikanths/"> <u>LinkedIn </u> </Link>] 
+            </p> 
+
+            <p >⟶ Thoughts [<Link href="https://x.com/srikan1h"> <u>X.com </u> </Link>] 
+            </p>
+
+            <p >⟶ Reach out [<Link href="mailto:ss2675@srmist.edu.in"> <u>E-mail </u> </Link>] 
+            </p>
+
+
+
+
+
             
-            <Link
-              className="flex font-mono text-sm py-2 px-3 bg-neutral-800 rounded-md mb-2 justify-between"
-              href="https://linkedin.com/in/saisrikanths/"
-            >
-              LinkedIn
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                fill="currentColor"
-                className="bi bi-arrow-up-right mt-1 mx-1"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 
-                     13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
-                />
-              </svg>
-            </Link>
-
-            <Link
-              className="flex font-mono text-sm py-2 px-3 bg-neutral-800 rounded-md mb-2 justify-between"
-              href="https://x.com/srikan1h"
-            >
-              X.com
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                fill="currentColor"
-                className="bi bi-arrow-up-right mt-1 mx-1"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 
-                     13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
-                />
-              </svg>
-            </Link>
-
-            <Link
-              className="flex font-mono text-sm py-2 px-3 bg-neutral-800 rounded-md mb-2 justify-between"
-              href="https://github.com/srikan1h"
-            >
-              GitHub
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                fill="currentColor"
-                className="bi bi-arrow-up-right mt-1 mx-1"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 
-                     13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
-                />
-              </svg>
-            </Link>
-
-            <a
-              className="flex font-mono text-sm py-2 px-3 bg-neutral-800 rounded-md mb-2 justify-between"
-              href="mailto:ss2675@srmist.edu.in"
-            >
-              E-mail
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                fill="currentColor"
-                className="bi bi-arrow-up-right mt-1 mx-1"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 
-                     13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
-                />
-              </svg>
-            </a>
 
           </div>
         </div>

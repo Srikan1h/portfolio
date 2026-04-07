@@ -75,7 +75,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} antialiased max-w-3xl mx-auto py-6 px-4`}
+        className={`${inter.variable} antialiased max-w-2xl mx-auto py-10 px-4`}
       >
         <header>
           <MenuStack />
