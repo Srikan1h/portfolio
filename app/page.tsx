@@ -12,7 +12,7 @@ export default function Home() {
                 Keenly focused on full-stack systems, machine learning, and financial markets. 
             </p>
             <p >
-              In the AI era, the bottleneck for most businesses isn’t ideas but,it’s execution across their digital journey. {" "}<a className="text-blue-400" href="https://linkedin.com/company/softmerise">
+              In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="text-blue-400" href="https://linkedin.com/company/softmerise">
                 Softmerise
               </a>{" "} is my current attempt at reducing that friction.
             </p>

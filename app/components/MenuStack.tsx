@@ -12,11 +12,12 @@ function MenuStack() {
       <ul className="menu flex">
         <li className="link1 pl-4">
           <Link className="text-neutral-400" href="/blog">
-          <u>Thoughts</u></Link>
+          Thoughts</Link>
         </li>
-        <li className="link2 pl-4">
+ 
+        <li className="link3 pl-4">
           <Link className="text-neutral-400" href="/resources">
-          <u>Resources</u></Link>
+          Resources</Link>
         </li>
       </ul>
     </div>
