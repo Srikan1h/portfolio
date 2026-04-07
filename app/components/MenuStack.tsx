@@ -10,11 +10,13 @@ function MenuStack() {
       </div>
 
       <ul className="menu flex">
-        <li className="link1 px-5">
-          <Link className="text-neutral-400 text-lg" href="https://kryptokanth.medium.com">Thoughts</Link>
+        <li className="link1 pl-4">
+          <Link className="text-neutral-400" href="/blog">
+          <u>Thoughts</u></Link>
         </li>
-        <li className="link2 px-5">
-          <Link className="text-neutral-400 text-lg" href="https://kryptokanth.medium.com">Achivements</Link>
+        <li className="link2 pl-4">
+          <Link className="text-neutral-400" href="/resources">
+          <u>Resources</u></Link>
         </li>
       </ul>
     </div>

@@ -6,7 +6,7 @@ export default function Home() {
       <section>
         <div className="pb-7 sm:py-2 ">
           
-          <article className="py-2 text-xl text-neutral-300">
+          <article className="py-2 text-neutral-300">
             <p>I love building things on the internet.</p>
             <p>
                 Keenly focused on full-stack systems, machine learning, and financial markets. 
