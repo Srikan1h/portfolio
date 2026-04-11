@@ -11,7 +11,7 @@ function MenuStack() {
 
       <ul className="menu flex">
         <li className="link1 pl-4">
-          <Link className="text-neutral-400" href="/blog">
+          <Link className="text-neutral-400" href="/thoughts">
           Thoughts</Link>
         </li>
  
