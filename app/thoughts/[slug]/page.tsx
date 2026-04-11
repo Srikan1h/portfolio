@@ -29,7 +29,7 @@ export default async function PostPage({ params }: Params) {
     <section>
       <div className="pb-7 sm:py-2">
         <article className="py-2 text-neutral-300">
-          <h1 className="text-xl font-semibold text-white mb-1">{post.title}</h1>
+          <h1 className="text-xl font-semibold mb-1">{post.title}</h1>
           <p className="text-neutral-500 text-sm mb-6">{formattedDate}</p>
 
           <div
