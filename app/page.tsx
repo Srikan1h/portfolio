@@ -17,30 +17,13 @@ export default function Home() {
               </a>{" "} is my current attempt at reducing that friction.
             </p>
 
+            <p>I’ve built through hackathons and lean teams, learning to move fast, collaborate closely, and bring people on the same page to turn ideas into real products.</p>
+
             <p>
-              I enjoy conversations, listening to different perspectives, and asking questions.
-Always open to ideas and learning.
+             I enjoy product-oriented thinking and staying open-minded by engaging in conversations, listening to different perspectives, and asking questions.
             </p>
           </article>
 
-          <div className="grid grid-flow-row auto-rows-max text-neutral-400 py-5">
-
-            <p >⟶ Connect [<Link href="https://linkedin.com/in/saisrikanths/"> <u>LinkedIn </u> </Link>] 
-            </p> 
-
-            <p >⟶ Thoughts [<Link href="https://x.com/srikan1h"> <u>X.com </u> </Link>] 
-            </p>
-
-            <p >⟶ Reach out [<Link href="mailto:ss2675@srmist.edu.in"> <u>E-mail </u> </Link>] 
-            </p>
-
-
-
-
-
-            
-
-          </div>
         </div>
       </section>
     </div>

@@ -14,11 +14,6 @@ function MenuStack() {
           <Link className="text-neutral-400" href="/thoughts">
           Thoughts</Link>
         </li>
- 
-        <li className="link3 pl-4">
-          <Link className="text-neutral-400" href="/resources">
-          Resources</Link>
-        </li>
       </ul>
     </div>
   )

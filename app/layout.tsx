@@ -81,7 +81,7 @@ export default function RootLayout({
           <MenuStack />
         </header>
 
-        <main className="mt-4 px-2">{children}</main>
+        <main className="mt-4 px-2 ">{children}</main>
 
         <Footer />
       </body>
