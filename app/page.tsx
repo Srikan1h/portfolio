@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className="">
       <section>
-        <div className="pb-7 sm:py-2 ">
+        <div className="py-2 ">
           
-          <article className="py-2 text-neutral-300">
+          <article className=" text-neutral-300">
             <p>I love building things on the internet.</p>
             <p>
                 Keenly focused on full-stack systems, machine learning, and financial markets. 
@@ -18,8 +18,8 @@ export default function Home() {
             </p>
 
             <p>I’ve built through hackathons and lean teams, learning to move fast, collaborate closely, and bring people on the same page to turn ideas into real products.</p>
-
-            <p>
+            
+            <p className="pt-5 border-t-1 border-neutral-800">
              I enjoy product-oriented thinking and staying open-minded by engaging in conversations, listening to different perspectives, and asking questions.
             </p>
           </article>

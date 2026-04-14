@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div>
         <footer>
-            <div className="flex p-2">
+            <div className="flex px-2">
 
                 <span className="text-neutral-400 pr-4"><a href="https://linkedin.com/in/saisrikanths/"> <u>LinkedIn </u> </a> 
             </span> 
