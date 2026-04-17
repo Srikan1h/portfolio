@@ -7,10 +7,43 @@ export default function Home() {
         <div className="py-2 ">
           
           <article className=" text-neutral-300">
-            <p>I love building things on the internet.</p>
-            <p>
-                Keenly focused on full-stack systems, machine learning, and financial markets. 
-            </p>
+            <p>I'm a cs undergrad, who love's building things on the internet. My interests are ...</p>
+
+            <section className = "flex flex-wrap gap-3 interests pb-5">
+              
+  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
+    Full-stack systems
+  </span>
+  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
+    machine learning
+  </span>
+  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
+    Computer vision
+  </span>
+     <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
+    Startups
+  </span>
+   <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
+    Programming
+  </span>
+
+  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
+    Open source
+  </span>
+
+    <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
+    Crypto
+  </span>
+  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
+    Financial markets
+  </span>
+ 
+
+   
+  
+
+            </section>
+
             <p >
               In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="text-blue-400" href="https://linkedin.com/company/softmerise">
                 Softmerise
