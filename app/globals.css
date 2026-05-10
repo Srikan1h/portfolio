@@ -1,8 +1,8 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Google+Sans:ital,opsz,wght,GRAD@0,17..18,400..700,200;1,17..18,400..700,200&display=swap');
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: rgb(57, 199, 208);
+  --foreground: rgb(57, 199, 208);
 }
 
 @theme inline {
@@ -19,6 +19,8 @@
   }
 }
 
+
+
 body {
   background: var(--background);
   color: var(--foreground);
@@ -26,6 +28,20 @@ body {
 }
 p {
   margin-bottom: 1rem;
+}
+
+
+
+.google-sans-flex-light {
+  font-family: "Google Sans Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "ROND" 0;
 }
 
 /* Scoped styles for rendered markdown in blog posts */

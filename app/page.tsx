@@ -2,63 +2,51 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="">
-      <section>
-        <div className="py-2 ">
+    <div className="py-4 fs-5">
+      <div>
+        <span className="fs-2">Hi! I'm Sai Srikanth</span>
           
-          <article className=" text-neutral-300">
-            <p>I'm a cs undergrad, who love's building things on the internet. My interests are ...</p>
-
-            <section className = "flex flex-wrap gap-3 interests pb-5">
-              
-  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
-    Full-stack systems
-  </span>
-  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
-    machine learning
-  </span>
-  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
-    Computer vision
-  </span>
-     <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
-    Startups
-  </span>
-   <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
-    Programming
-  </span>
-
-  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
-    Open source
-  </span>
-
-    <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
-    Crypto
-  </span>
-  <span className="px-3 py-1 text-sm rounded-full bg-gray-800 text-gray-200 whitespace-nowrap">
-    Financial markets
-  </span>
- 
-
-   
   
+        <p className="text-body-secondary">An undergradate student pursuing Computer Science and Engineering. I love building stuff on the internet, that solve niche problems.</p>
+      </div>
+
+        
+
+
+            <section className = "d-flex flex-wrap gap-2 interests py-2">
+              <span className="pt-1">My interests lie in </span>
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Backend dev</span>
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Low latency</span>
+
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">AI Agents</span>
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Crypto</span>
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Community</span>
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Finance</span>
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Open source</span>
+
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Startups</span>
+              
 
             </section>
 
-            <p >
+            <div>
+              <p className = "text-body-secondary pt-4">
               In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="text-blue-400" href="https://linkedin.com/company/softmerise">
                 Softmerise
               </a>{" "} is my current attempt at reducing that friction.
             </p>
 
-            <p>I’ve built through hackathons and lean teams, learning to move fast, collaborate closely, and bring people on the same page to turn ideas into real products.</p>
+            <p className="text-body-secondary">I’ve built through hackathons and lean teams, learning to move fast, collaborate closely, and bring people on the same page to turn ideas into real products.</p>
             
-            <p className="pt-5 border-t-1 border-neutral-800">
+            <p className="text-body-secondary">
              I enjoy product-oriented thinking and staying open-minded by engaging in conversations, listening to different perspectives, and asking questions.
             </p>
-          </article>
+            </div>
+            
+
 
         </div>
-      </section>
-    </div>
+     
+  
   );
 }

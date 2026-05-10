@@ -5,21 +5,23 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-        <footer>
-            <div className="flex px-2">
+        <footer className=''>
+          <div className='container col-12 col-lg-6 border-top py-3'>
+            <div className="flex">
 
-                <span className="text-neutral-400 pr-4"><a href="https://linkedin.com/in/saisrikanths/"> <u>LinkedIn </u> </a> 
+                <span className="pe-3"><a className="text-decoration-none text-dark" href="https://linkedin.com/in/saisrikanths/"> LinkedIn </a> 
             </span> 
 
-            <span className="text-neutral-400 pr-4"><a href="https://x.com/srikan1h"> <u>X.com </u> </a> 
+            <span className="pe-3"><a className="text-decoration-none text-dark" href="https://x.com/srikan1h"> X.com  </a> 
             </span>
 
-            <span className="text-neutral-400 pr-4"><a href="mailto:ss2675@srmist.edu.in"> <u>E-mail </u> </a></span>
+            <span className="pe-3"><a className="text-decoration-none text-dark" href="mailto:ss2675@srmist.edu.in"> E-mail </a></span>
 
 
 
 
 
+            </div>
             </div>
         </footer>
     </div>
