@@ -48,11 +48,7 @@ export default async function PostPage({ params }: Params) {
           />
         </article>
 
-        <div className="py-4 text-neutral-400">
-          <Link href="/thoughts" className="hover:text-white transition-colors duration-150">
-            ← Back
-          </Link>
-        </div>
+
       </div>
     </section>
   );
