@@ -20,12 +20,12 @@ export default function Home() {
 
               <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">AI Agents</span>
               <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Crypto</span>
-              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Community</span>
-              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Finance</span>
+
               <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Open source</span>
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Community</span>
 
               <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Startups</span>
-              
+              <span className="fs-6 px-3 pt-1 rounded-pill fs-6 bg-secondary-subtle text-dark fw-normal">Financial markets</span>
 
             </section>
 

@@ -11,14 +11,24 @@ export default function ListItem({ post }: Props) {
   const formattedDate = getFormattedDate(date);
 
   return (
-    <li className="flex items-baseline justify-between gap-4">
-      <Link
+
+
+
+<div className="d-flex mx-auto me-auto">
+  <div className="me-auto ">
+    <Link
         href={`/thoughts/${slug}`}
-        className="text-neutral-300 hover:text-white transition-colors duration-150"
+        className=""
       >
         {title}
       </Link>
-      <span className="text-neutral-500 text-sm shrink-0">{formattedDate}</span>
-    </li>
+  </div>
+  <div className="p-2">
+    <span className="">{formattedDate}</span>
+  </div>
+</div>
+
+
+
   );
 }

@@ -24,7 +24,6 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
 p {
   margin-bottom: 1rem;
@@ -101,7 +100,7 @@ p {
 .prose-content blockquote {
   border-left: 2px solid #404040;
   padding-left: 1rem;
-  color: #737373;
+  color: #000000;
   margin-bottom: 1rem;
 }
 
