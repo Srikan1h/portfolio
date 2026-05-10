@@ -14,8 +14,9 @@ export default function ListItem({ post }: Props) {
 
 
 
-<div className="d-flex mx-auto me-auto">
-  <div className="me-auto ">
+<li className="py-2 list-unstyled">
+  <div className="d-flex">
+  <div className="flex-grow-1">
     <Link
         href={`/thoughts/${slug}`}
         className=""
@@ -23,10 +24,19 @@ export default function ListItem({ post }: Props) {
         {title}
       </Link>
   </div>
-  <div className="p-2">
-    <span className="">{formattedDate}</span>
+  <div className="">
+        <span className="">{formattedDate}</span>
+
   </div>
 </div>
+
+
+
+
+
+
+  </li>
+
 
 
 

@@ -11,8 +11,8 @@ export default function ThoughtsPage() {
 
   return (
     <section>
-      <div className="pb-7 sm:py-2">
-        <ul className="grid grid-flow-row auto-rows-max text-neutral-400 py-5 gap-3">
+      <div className="py-3">
+        <ul className="p-0 m-0">
           {posts.map((post) => (
             <ListItem key={post.slug} post={post} />
           ))}

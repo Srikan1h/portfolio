@@ -27,11 +27,21 @@ export default async function PostPage({ params }: Params) {
 
   return (
     <section>
-      <div className="pb-7 sm:py-2">
-        <article className="py-2 text-neutral-300">
-          <h1 className="text-xl font-semibold mb-1">{post.title}</h1>
-          <p className="text-neutral-500 text-sm mb-6">{formattedDate}</p>
+      <div className="">
+        <article className="py-2 text-dark">
+          <div className="d-flex align-items-center">
+            <div className="flex-grow-1">
+              <h1 className="my-2">{post.title}</h1>
+              <p className="text-neutral-500 text-sm mb-6">{formattedDate}</p>
 
+            </div>
+            <div className="p-2">
+              <Link href="/thoughts" className="text-decoration-none text-dark">
+            ← Back
+          </Link>
+            </div>
+          </div>
+          
           <div
             className="prose-content text-neutral-300"
             dangerouslySetInnerHTML={{ __html: post.contentHtml }}
