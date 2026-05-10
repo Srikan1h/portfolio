@@ -14,7 +14,7 @@ function MenuStack() {
 
 <button className="btn btn-transparent text-decoration-underline d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menu</button>
 
-<div className="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div className="offcanvas offcanvas-end d-lg-none" tabIndex={-1} id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div className="offcanvas-header bg-body-tertiary">
     <span className="offcanvas-title ps-3 fs-3 " id="offcanvasRightLabel">Srikan1h</span>
     <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
