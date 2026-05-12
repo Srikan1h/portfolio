@@ -6,12 +6,12 @@ function Footer() {
   return (
     <div>
         <footer className=''>
-          <div className='container col-12 col-lg-6 border-top py-3'>
+          <div className='container col-12 col-lg-4 border-top py-3'>
 
 
             <div className="d-flex">
   <div className=" flex-grow-1">
-    <span className="text-secondary text-sm">© 2025 srikan1h</span>
+    <span className="text-secondary text-sm">Srikanth © 2007 – Present</span>
   </div>
   <div className="">
     <a className="ps-3 text-decoration-none text-dark" href="https://linkedin.com/in/saisrikanths/">

@@ -5,31 +5,30 @@ import Link from "next/link";
 function MenuStack() {
   return (
 
-  <nav className ="navbar navbar-expand-lg bg-body-tertiary">
-    <div className ="container col-12 col-lg-6">
-    <a className ="navbar-brand fs-4" href="/">Sai Srikanth</a>
+  <nav className ="navbar navbar-expand-lg">
+    <div className ="container col-12 col-lg-4">
+    <a className ="navbar-brand fs-4 fw-medium" href="/">Sai Srikanth</a>
 
     
 
 
-<button className="btn btn-transparent text-decoration-underline d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+<button className="btn btn-transparent text-decoration-underline d-lg-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
 </svg>
 </button>
 
 <div className="offcanvas offcanvas-end d-lg-none" tabIndex={-1} id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div className="offcanvas-header bg-body-tertiary">
-    <span className="offcanvas-title ps-3 fs-3 " id="offcanvasRightLabel">Srikan1h</span>
-    <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  <div className="offcanvas-header bg-body-tertiary px-3">
+    <span className="offcanvas-title fs-3 " id="offcanvasRightLabel">Sai Srikanth</span>
+    <button type="button" className="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div className="offcanvas-body">
-    <nav className="nav flex-column">
-  <a className="nav-link" href="/about">About</a>
-  <a className="nav-link" href="/thoughts">Thoughts</a>
-  <a className="nav-link" href="/contact">Contact</a>
-  <a className="nav-link" href="/resume">CV</a>
-  <a className ="nav-link" href="https://github.com/srikan1h">Github</a>
+    <nav className="nav flex-column p-0">
+  <a className="nav-link text-body-secondary" href="/about">About</a>
+  <a className="nav-link text-body-secondary" href="/thoughts">Thoughts</a>
+  <a className="nav-link text-body-secondary" href="/resume">CV</a>
+  <a className="nav-link text-body-secondary" href="https://github.com/srikan1h">Github</a>
 
 </nav>
   </div>
@@ -42,15 +41,12 @@ function MenuStack() {
     <div className ="collapse navbar-collapse" id="navbarNav">
       <ul className ="navbar-nav ms-auto pt-1">
         <li className ="nav-item mx-md-2">
-          <a className ="nav-link" href="#">About</a>
+          <a className ="nav-link" href="/">About</a>
         </li>
         <li className ="nav-item mx-md-2">
           <a className ="nav-link" href="/thoughts">Thoughts</a>
         </li>
-        <li className ="nav-item mx-md-2">
-          <a className ="nav-link" href="#">Contact</a>
-        </li>
-        
+
         <li className ="nav-item mx-md-2">
           <a className ="nav-link" href="#">CV</a>
         </li>
