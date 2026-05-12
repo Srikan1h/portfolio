@@ -11,7 +11,7 @@ function Footer() {
 
             <div className="d-flex">
   <div className=" flex-grow-1">
-    <span className="text-body-secondary text-sm">Srikanth © 2007 – Present</span>
+    <span className="text-body-secondary text-sm">Kanth.in © 2007 – Present</span>
   </div>
 
   <div className="">
