@@ -5,8 +5,8 @@ import Link from "next/link";
 function MenuStack() {
   return (
 
-  <nav className ="navbar navbar-expand-lg">
-    <div className ="container col-12 col-lg-4">
+  <nav className ="navbar navbar-expand-lg ">
+    <div className ="container col-12 col-lg-4 px-3">
     <a className ="navbar-brand fs-4 fw-medium" href="/">Sai Srikanth</a>
 
     
@@ -18,17 +18,17 @@ function MenuStack() {
 </svg>
 </button>
 
-<div className="offcanvas offcanvas-end d-lg-none" tabIndex={-1} id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-  <div className="offcanvas-header bg-body-tertiary px-3">
-    <span className="offcanvas-title fs-3 " id="offcanvasRightLabel">Sai Srikanth</span>
+<div className="offcanvas offcanvas-end d-lg-none px-3" tabIndex={-1} id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div className="offcanvas-header">
+    <span className="offcanvas-title fs-3 fw-medium" id="offcanvasRightLabel">Sai Srikanth</span>
     <button type="button" className="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <div className="offcanvas-body">
-    <nav className="nav flex-column p-0">
-  <a className="nav-link text-body-secondary" href="/about">About</a>
-  <a className="nav-link text-body-secondary" href="/thoughts">Thoughts</a>
-  <a className="nav-link text-body-secondary" href="/resume">CV</a>
-  <a className="nav-link text-body-secondary" href="https://github.com/srikan1h">Github</a>
+  <div className="offcanvas-body py-0">
+    <nav className="nav flex-column">
+  <a className="nav-link text-body-secondary px-0" href="/about">About</a>
+  <a className="nav-link text-body-secondary px-0" href="/thoughts">Thoughts</a>
+  <a className="nav-link text-body-secondary px-0" href="/resume">CV</a>
+  <a className="nav-link text-body-secondary px-0" href="https://github.com/srikan1h">Github</a>
 
 </nav>
   </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="py-3 fs-5">
+    <div className="text-sm fw-normal">
       <div>
           
         <h3 className="text-dark">About</h3>
@@ -15,7 +15,7 @@ export default function Home() {
             <section className = "interests py-2">
               <h3 className="text-dark">Interests</h3>
 
-              <div  className="d-flex flex-wrap gap-3 interests py-1 fs-6">
+              <div  className="d-flex flex-wrap gap-3 interests py-1 ">
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Backend</span>
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Systems design</span>
 
@@ -37,7 +37,7 @@ export default function Home() {
             
             <div>
               <p className = "text-body-secondary">
-              In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="text-primary text-decoration-none" href="https://linkedin.com/company/softmerise">
+              In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://linkedin.com/company/softmerise">
                 Softmerise
               </a>{" "} is my current attempt at reducing that friction.
             </p>

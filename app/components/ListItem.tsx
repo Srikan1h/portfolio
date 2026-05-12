@@ -14,7 +14,7 @@ export default function ListItem({ post }: Props) {
 
 
 
-<li className="py-2 list-unstyled py-3">
+<li className="list-unstyled pb-3">
   <div className="d-flex">
   <div className="flex-grow-1">
     <Link

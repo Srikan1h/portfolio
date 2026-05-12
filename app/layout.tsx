@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   keywords: [
     "Sai Srikanth",
     "Software Engineer",
+    "Founder",
     "Competitive Programming",
     "Web Developer",
     "Machine Learning",
@@ -86,7 +87,7 @@ export default function RootLayout({
           <MenuStack />
         </header>
 
-        <main className="container col-12 col-lg-4 google-sans-flex-light">{children}</main>
+        <main className="container col-12 col-lg-4 google-sans-flex-light p-3">{children}</main>
 
         <footer>
           <Footer />
