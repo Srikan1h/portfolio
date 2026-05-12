@@ -42,7 +42,8 @@ export default function Home() {
               </a>{" "} is my current attempt at reducing that friction.
             </p>
 
-            <p className="text-body-secondary">I’ve built through hackathons and lean teams, learning to move fast, collaborate closely, and bring people on the same page to turn ideas into real products.</p>
+            <p className="text-body-secondary">
+              I’ve built through and won hackathons with lean teams, learning to move fast, collaborate closely, and bring people on the same page to turn ideas into real products.</p>
             
             <p className="text-body-secondary">
              I enjoy product-oriented thinking and staying open-minded by engaging in conversations, listening to different perspectives, and asking questions.
