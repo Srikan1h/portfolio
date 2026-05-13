@@ -7,7 +7,7 @@ function MenuStack() {
 
   <nav className ="navbar navbar-expand-lg ">
     <div className ="container col-12 col-lg-4 px-3">
-    <a className ="navbar-brand fs-4 fw-medium" href="/">Sai Srikanth</a>
+    <a className ="navbar-brand fs-3 fw-medium" href="/">Sai Srikanth</a>
 
     
 

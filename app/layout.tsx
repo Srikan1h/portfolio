@@ -82,7 +82,7 @@ export default function RootLayout({
       </head>
       
 
-      <body className={`${inter.variable} mx-auto antialiased google-sans-flex-light`}>
+      <body className={`${inter.variable} mx-auto antialiased google-sans-flex-light my-1`}>
         <header>
           <MenuStack />
         </header>
