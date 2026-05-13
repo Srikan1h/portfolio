@@ -20,7 +20,6 @@ export default function Home() {
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Backend</span>
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Systems design</span>
 
-              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Low latency</span>
 
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">AI Agents</span>
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Crypto</span>
