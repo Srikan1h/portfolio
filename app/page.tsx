@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="text-sm fw-normal">
-      <section className = "about pb-3">
+      <section className = "about pb-2">
       <div>
           
         <h4 className="text-dark">About</h4>
@@ -32,7 +32,7 @@ export default function Home() {
               </div>
             </section>
 
-            <section className="passion pb-3">
+            <section className="passion py-2">
               <h4 className="text-dark">Passion</h4>
               <div>
                 <p className = "text-body-secondary">
