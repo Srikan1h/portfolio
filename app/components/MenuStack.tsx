@@ -25,9 +25,9 @@ function MenuStack() {
   </div>
   <div className="offcanvas-body py-0">
     <nav className="nav flex-column">
-  <a className="nav-link text-body-secondary px-0" href="/about">About</a>
+  <a className="nav-link text-body-secondary px-0" href="/">About</a>
   <a className="nav-link text-body-secondary px-0" href="/thoughts">Thoughts</a>
-  <a className="nav-link text-body-secondary px-0" href="/resume">CV</a>
+  <a className="nav-link text-body-secondary px-0" href="/">CV</a>
   <a className="nav-link text-body-secondary px-0" href="https://github.com/srikan1h">Github</a>
 
 </nav>
@@ -48,7 +48,7 @@ function MenuStack() {
         </li>
 
         <li className ="nav-item mx-md-2">
-          <a className ="nav-link" href="#">CV</a>
+          <a className ="nav-link" href="/">CV</a>
         </li>
         <li className ="nav-item mx-md-2">
           <a className ="nav-link" href="https://github.com/srikan1h">Github</a>

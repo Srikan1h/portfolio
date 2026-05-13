@@ -5,8 +5,8 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-        <footer className=''>
-          <div className='container col-12 col-lg-4 px-3'>
+        <footer>
+          <div className='container col-12 col-lg-4 p-3'>
 
 
             <div className="d-flex">
