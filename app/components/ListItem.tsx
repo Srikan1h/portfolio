@@ -19,7 +19,7 @@ export default function ListItem({ post }: Props) {
   <div className="flex-grow-1">
     <Link
         href={`/thoughts/${slug}`}
-        className="text-decoration-none"
+        className="link-dark link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover"
       >
         {title}
       </Link>
