@@ -22,7 +22,6 @@ export default function Home() {
 
 
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Agentic AI</span>
-              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Crypto</span>
 
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Open source</span>
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Community</span>
