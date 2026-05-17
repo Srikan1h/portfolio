@@ -40,17 +40,17 @@ function MenuStack() {
 
     <div className ="collapse navbar-collapse" id="navbarNav">
       <ul className ="navbar-nav ms-auto pt-1">
-        <li className ="nav-item mx-md-2">
+        <li className ="nav-item ms-md-3">
           <a className ="nav-link" href="/">About</a>
         </li>
-        <li className ="nav-item mx-md-2">
+        <li className ="nav-item ms-md-3">
           <a className ="nav-link" href="/thoughts">Thoughts</a>
         </li>
 
-        <li className ="nav-item mx-md-2">
+        <li className ="nav-item ms-md-3">
           <a className ="nav-link" href="/">CV</a>
         </li>
-        <li className ="nav-item mx-md-2">
+        <li className ="nav-item ms-md-3">
           <a className ="nav-link" href="https://github.com/srikan1h">Github</a>
         </li>
 
