@@ -27,7 +27,6 @@ function MenuStack() {
     <nav className="nav flex-column">
   <a className="nav-link text-body-secondary px-0" href="/">About</a>
   <a className="nav-link text-body-secondary px-0" href="/thoughts">Thoughts</a>
-  <a className="nav-link text-body-secondary px-0" href="/">CV</a>
   <a className="nav-link text-body-secondary px-0" href="https://github.com/srikan1h">Github</a>
 
 </nav>
@@ -45,10 +44,6 @@ function MenuStack() {
         </li>
         <li className ="nav-item ms-md-4">
           <a className ="nav-link pe-0" href="/thoughts">Thoughts</a>
-        </li>
-
-        <li className ="nav-item ms-md-4">
-          <a className ="nav-link pe-0" href="/">CV</a>
         </li>
         <li className ="nav-item ms-md-4">
           <a className ="nav-link pe-0" href="https://github.com/srikan1h">Github</a>

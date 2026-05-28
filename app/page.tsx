@@ -4,30 +4,29 @@ export default function Home() {
   return (
     <div className="text-sm fw-normal">
       <section className = "about pb-2">
-      <div>
-          
-        <h4 className="text-dark">About</h4>
-        <p className="text-body-secondary">I’m a software engineer and Student. I’m originally from Nagercoil. Currently pursuing my undergrad in Computer Science and Engineering. I love building stuff on the internet, that solve niche problems.</p>
-      </div>
-</section>
+        <div>          
+          <h4 className="text-dark">About</h4>
+          <p className="text-body-secondary">I’m a software tinkerer and Student. Currently pursuing my undergrad in Computer Science and Engineering. I love building stuff on the internet, that solve niche problems.</p>
+        </div>
+      </section>
         
 
 
-            <section className = "interests pb-3">
+            <section className = "interests pb-2">
               <h4 className="text-dark">Interests</h4>
 
               <div  className="d-flex flex-wrap gap-3 interests py-1 ">
-              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Backend</span>
+              <span className="px-3 py-1 text-sm rounded-3 bg-body-secondary text-body-secondary fw-normal">Backend</span>
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Systems design</span>
 
 
-              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Agentic AI</span>
+              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">AI Agents</span>
 
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Open source</span>
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Community</span>
 
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Startups</span>
-              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Financial markets</span>
+              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Finance</span>
               </div>
             </section>
 

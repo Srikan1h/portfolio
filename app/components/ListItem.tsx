@@ -24,7 +24,7 @@ export default function ListItem({ post }: Props) {
         {title}
       </Link>
   </div>
-  <div className="">
+  <div className="text-end">
         <span className="">{formattedDate}</span>
 
   </div>
