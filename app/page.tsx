@@ -15,8 +15,10 @@ export default function Home() {
             <section className = "interests pb-2">
               <h4 className="text-dark">Interests</h4>
 
-              <div  className="d-flex flex-wrap gap-3 interests py-1 ">
+              <div  className="d-flex flex-wrap gap-2 interests py-1 ">
               <span className="px-3 py-1 text-sm rounded-3 bg-body-secondary text-body-secondary fw-normal">Backend</span>
+              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Startups</span>
+              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Finance</span>
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Systems design</span>
 
 
@@ -25,8 +27,7 @@ export default function Home() {
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Open source</span>
               <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Community</span>
 
-              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Startups</span>
-              <span className="px-3 py-1 rounded-3 bg-body-secondary text-body-secondary fw-normal">Finance</span>
+ 
               </div>
             </section>
 
