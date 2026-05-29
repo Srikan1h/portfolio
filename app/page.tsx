@@ -35,7 +35,7 @@ export default function Home() {
               <h4 className="text-dark">Passion</h4>
               <div>
                 <p className = "text-body-secondary">
-              In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://linkedin.com/company/softmerise">
+              In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://softmerise.github.io">
                 Softmerise
               </a>{" "} is my current attempt at reducing that friction.
             </p>
