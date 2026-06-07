@@ -47,7 +47,7 @@ export default function Home() {
             </p>
 
             <p className="text-body-secondary">
-              I’ve built through and won hackathons with lean teams, learning to move fast, collaborate closely, and bring people on the same page to turn ideas into real products.</p>
+              I’ve built through and won multiple hackathons with lean teams, learning to move fast, collaborate closely, and bring people on the same page to turn ideas into real products.</p>
             </div>
           </section>
 
