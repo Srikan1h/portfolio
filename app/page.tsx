@@ -51,6 +51,30 @@ export default function Home() {
             </div>
           </section>
 
+          <section className="experience py-2">
+            <h4 className="text-dark pb-2">Experience</h4>
+            
+            <div className="mb-4">
+              <div className="text-dark fw-medium">Machine Learning Research Intern</div>
+              <div className="text-body-secondary">National Institute of Technology Karnataka, Surathkal</div>
+              <div className="text-body-secondary">June 2026 – August 2026</div>
+
+              {/* <p className="text-body-secondary mt-1">
+                Conducted research in machine learning, working on experimentation, model development, and analysis under academic mentorship.
+              </p> */}
+            </div>
+            
+            <div className="mb-4">
+              <div className="text-dark fw-medium">Software Development Engineer Intern</div>
+              <div className="text-body-secondary">Trombay Trading LLP · March 2026 – June 2026</div>
+              {/* <p className="text-body-secondary mt-1">
+                Contributed to software development initiatives, collaborating on building and improving business-facing applications and internal systems.
+              </p> */}
+            </div>
+
+            
+          </section>
+
           <section className="contact pb-3">
             <h4 className="text-dark">Get in touch</h4>
             
