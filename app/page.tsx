@@ -66,7 +66,9 @@ export default function Home() {
             
             <div className="mb-4">
               <div className="text-dark fw-medium">Software Development Engineer Intern</div>
-              <div className="text-body-secondary">Trombay Trading LLP · March 2026 – June 2026</div>
+              <div className="text-body-secondary">Trombay Trading LLP</div>
+              <div className="text-body-secondary">March 2026 – June 2026</div>
+
               {/* <p className="text-body-secondary mt-1">
                 Contributed to software development initiatives, collaborating on building and improving business-facing applications and internal systems.
               </p> */}
