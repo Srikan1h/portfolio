@@ -54,24 +54,28 @@ export default function Home() {
           <section className="experience py-2">
             <h4 className="text-dark pb-2">Experience</h4>
             
-            <div className="mb-4">
-              <div className="text-dark fw-medium">Machine Learning Research Intern</div>
-              <div className="text-body-secondary">National Institute of Technology Karnataka, Surathkal</div>
-              <div className="text-body-secondary">June 2026 – August 2026</div>
+            <div className="border-start border-2 ms-2 ps-3">
+              <div className="mb-4 position-relative">
+                <div className="position-absolute top-0 translate-middle-x bg-dark rounded-circle" style={{ width: '8px', height: '8px', left: 'calc(-1rem - 1px)', marginTop: '0.35rem' }}></div>
+                <div className="text-dark fw-medium">Machine Learning Research Intern</div>
+                <div className="text-body-secondary">National Institute of Technology Karnataka, Surathkal</div>
+                <div className="text-body-secondary">June 2026 – August 2026</div>
 
-              {/* <p className="text-body-secondary mt-1">
-                Conducted research in machine learning, working on experimentation, model development, and analysis under academic mentorship.
-              </p> */}
-            </div>
-            
-            <div className="mb-4">
-              <div className="text-dark fw-medium">Software Development Engineer Intern</div>
-              <div className="text-body-secondary">Trombay Trading LLP</div>
-              <div className="text-body-secondary">March 2026 – June 2026</div>
+                {/* <p className="text-body-secondary mt-1">
+                  Conducted research in machine learning, working on experimentation, model development, and analysis under academic mentorship.
+                </p> */}
+              </div>
+              
+              <div className="mb-4 position-relative">
+                <div className="position-absolute top-0 translate-middle-x bg-dark rounded-circle" style={{ width: '8px', height: '8px', left: 'calc(-1rem - 1px)', marginTop: '0.35rem' }}></div>
+                <div className="text-dark fw-medium">Software Development Engineer Intern</div>
+                <div className="text-body-secondary">Trombay Trading LLP</div>
+                <div className="text-body-secondary">March 2026 – June 2026</div>
 
-              {/* <p className="text-body-secondary mt-1">
-                Contributed to software development initiatives, collaborating on building and improving business-facing applications and internal systems.
-              </p> */}
+                {/* <p className="text-body-secondary mt-1">
+                  Contributed to software development initiatives, collaborating on building and improving business-facing applications and internal systems.
+                </p> */}
+              </div>
             </div>
 
             
