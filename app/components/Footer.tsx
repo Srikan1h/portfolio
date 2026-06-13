@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div>
         <footer>
-          <div className='container col-12 col-lg-5 p-3'>
+          <div className='container col-12 col-lg-4 p-3'>
             <div className="d-flex">
               <div className=" flex-grow-1">
                 <span className="text-body-secondary text-sm">© Sai Srikanth</span>
