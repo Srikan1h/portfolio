@@ -7,6 +7,9 @@ export default function Home() {
         <div>          
           <h4 className="text-dark">About</h4>
           <p className="text-body-secondary">I’m a software tinkerer and Student. Currently pursuing my undergrad in Computer Science and Engineering. I love building stuff on the internet, that solve niche problems.</p>
+          <p className="text-body-secondary">
+            I started out as a Founding Engineer at <span className="text-dark">Jezh Technologies Pvt Ltd</span> during high school. I later joined <span className="text-dark">Trombay Trading LLP</span>, where I built the client onboarding pipeline from the ground up. Currently, I'm a Machine Learning Research Intern at <span className="text-dark">NIT Karnataka</span>, researching image restoration and enhancement techniques.
+          </p>
         </div>
       </section>
         
@@ -51,35 +54,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="experience py-2">
-            <h4 className="text-dark pb-2">Experience</h4>
-            
-            <div className="border-start border-2 ms-2 ps-3">
-              <div className="mb-4 position-relative">
-                <div className="position-absolute top-0 translate-middle-x bg-dark rounded-circle" style={{ width: '8px', height: '8px', left: 'calc(-1rem - 1px)', marginTop: '0.35rem' }}></div>
-                <div className="text-dark fw-medium">Machine Learning Research Intern</div>
-                <div className="text-body-secondary">National Institute of Technology Karnataka, Surathkal</div>
-                <div className="text-body-secondary">June 2026 – August 2026</div>
-
-                {/* <p className="text-body-secondary mt-1">
-                  Conducted research in machine learning, working on experimentation, model development, and analysis under academic mentorship.
-                </p> */}
-              </div>
-              
-              <div className="mb-4 position-relative">
-                <div className="position-absolute top-0 translate-middle-x bg-dark rounded-circle" style={{ width: '8px', height: '8px', left: 'calc(-1rem - 1px)', marginTop: '0.35rem' }}></div>
-                <div className="text-dark fw-medium">Software Development Engineer Intern</div>
-                <div className="text-body-secondary">Trombay Trading LLP</div>
-                <div className="text-body-secondary">March 2026 – June 2026</div>
-
-                {/* <p className="text-body-secondary mt-1">
-                  Contributed to software development initiatives, collaborating on building and improving business-facing applications and internal systems.
-                </p> */}
-              </div>
-            </div>
-
-            
-          </section>
+          
 
           <section className="contact pb-3">
             <h4 className="text-dark">Get in touch</h4>

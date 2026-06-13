@@ -87,7 +87,7 @@ export default function RootLayout({
           <MenuStack />
         </header>
 
-        <main className="container col-12 col-lg-4 google-sans-flex-light p-3">{children}</main>
+        <main className="container col-12 col-lg-5 google-sans-flex-light p-3">{children}</main>
 
         <footer>
           <Footer />
