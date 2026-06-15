@@ -41,13 +41,13 @@ function MenuStack() {
     <div className ="collapse navbar-collapse" id="navbarNav">
       <ul className ="navbar-nav ms-auto pt-1">
         <li className ="nav-item ms-md-4">
-          <a className ="nav-link link-dark pe-0" href="/">About</a>
+          <a className ="mx-1 link-dark link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="/">About</a>
         </li>
         <li className ="nav-item ms-md-4">
-          <a className ="nav-link link-dark pe-0" href="/thoughts">Thoughts</a>
+          <a className ="mx-1 link-dark link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="/thoughts">Thoughts</a>
         </li>
         <li className ="nav-item ms-md-4">
-          <a className ="nav-link link-dark pe-0" href="https://github.com/srikan1h">Github</a>
+          <a className ="mx-1 link-dark link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="https://github.com/srikan1h">Github</a>
         </li>
 
       </ul>
