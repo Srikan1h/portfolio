@@ -6,10 +6,10 @@ function Footer() {
   return (
     <div>
         <footer>
-          <div className='container col-12 col-lg-4 p-3'>
+          <div className='container col-12 col-lg-4 p-3 text-sm'>
             <div className="d-flex">
               <div className=" flex-grow-1">
-                <span className="text-body-secondary text-sm">© Sai Srikanth</span>
+                <span className="text-dark ">© Sai Srikanth</span>
               </div>
 
   <div className="footer-link">

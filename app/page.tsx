@@ -6,6 +6,7 @@ export default function Home() {
       <section className = "about pb-2">
         <div>          
           <h4 className="text-dark">About</h4>
+          
           <p className="text-body-secondary">I’m a software tinkerer and Student. Currently pursuing my undergrad in Computer Science and Engineering. I love building stuff on the internet, that solve niche problems.</p>
           <p className="text-body-secondary">
             I started out as a Founding Engineer at <span className="text-dark">Jezh Technologies Pvt Ltd</span> during high school. I later joined <span className="text-dark">Trombay Trading LLP</span>, where I built the client onboarding pipeline from the ground up. Currently, I'm a Machine Learning Research Intern at <span className="text-dark">NIT Karnataka</span>, researching image restoration and enhancement techniques.
