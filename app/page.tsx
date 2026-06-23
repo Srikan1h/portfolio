@@ -16,7 +16,7 @@ export default function Home() {
         
 
 
-            <section className = "interests pb-2">
+           {/*  <section className = "interests pb-2">
               <h4 className="text-dark">Interests</h4>
 
               <div  className="d-flex flex-wrap gap-2 interests py-1 ">
@@ -39,7 +39,7 @@ export default function Home() {
 
  
               </div>
-            </section>
+            </section> */}
 
             <section className="passion py-2">
               <h4 className="text-dark">Passion</h4>
