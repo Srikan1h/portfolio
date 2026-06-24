@@ -7,7 +7,9 @@ export default function Home() {
         <div>          
           <h5 className="text-dark">About</h5>
           
-          <p className="text-body-secondary">Computer Science student with interests in software engineering, machine learning, and early-stage ventures.</p>
+          <p className="text-body-secondary">Computer Science student with interests in software engineering, machine learning, and <a className="link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-75-hover" href="https://capital.kanth.in">
+                investing
+              </a>.</p>
 
           <ul className="text-body-secondary ps-4">
             <li className="pb-2">
