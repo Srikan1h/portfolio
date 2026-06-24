@@ -5,12 +5,22 @@ export default function Home() {
     <div className="text-sm fw-normal">
       <section className = "about pb-2">
         <div>          
-          <h4 className="text-dark">About</h4>
+          <h5 className="text-dark">About</h5>
           
-          <p className="text-body-secondary">I’m a software tinkerer and Student. Currently pursuing my undergrad in Computer Science and Engineering. I love building stuff on the internet, that solve niche problems.</p>
-          <p className="text-body-secondary">
-            I started out as a Founding Engineer at <span className="text-dark">Jezh Technologies Pvt Ltd</span> during high school. I later joined <span className="text-dark">Trombay Trading LLP</span>, where I built the client onboarding pipeline from the ground up. Currently, I'm a Machine Learning Research Intern at <span className="text-dark">NIT Karnataka</span>, researching image restoration and enhancement techniques.
-          </p>
+          <p className="text-body-secondary">Computer Science student with interests in software engineering, machine learning, and early-stage ventures.</p>
+
+          <ul className="text-body-secondary ps-4">
+            <li className="pb-2">
+              Currently, I'm a Research Intern at NITK Surathkal, exploring Deep Image Prior and Transformer-based image restoration techniques.
+            </li>
+            <li className="pb-2">
+              Previously, I built the client onboarding pipeline for an export business from the ground up.
+            </li>
+            <li className="pb-0">
+              Before university, I joined the founding team of an early-stage startup and helped build and launch a web platform serving a network of 150+ private schools across South Tamil Nadu.
+            </li>
+          </ul>
+
         </div>
       </section>
         
@@ -42,32 +52,36 @@ export default function Home() {
             </section> */}
 
             <section className="passion py-2">
-              <h4 className="text-dark">Passion</h4>
+              <h5 className="text-dark">A few Highlights</h5>
               <div>
-                <p className = "text-body-secondary">
+                {/* <p className = "text-body-secondary">
               In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://softmerise.github.io">
                 Softmerise
               </a>{" "} is my current attempt at reducing that friction.
-            </p>
+            </p> */}
 
             <p className="text-body-secondary">
-              I’ve built through and won multiple hackathons with lean teams, learning to move fast, collaborate closely, and bring people on the same page to turn ideas into real products.</p>
+
+              I've built and won multiple hackathons, including first-place finishes at Smart India Hackathon 2022, IIT Bombay Techfest 2024,  SRMIST Digithon 3.0 2026, among others.
+            </p>
+
+              <p className="text-body-secondary">
+              Throughout these experiences, I've learned to work with lean teams, move quickly, align with people around a shared goal, and turn ideas into real products.</p>
             </div>
           </section>
 
           
 
           <section className="contact pb-3">
-            <h4 className="text-dark">Get in touch</h4>
+            <h5 className="text-dark">Get in touch</h5>
             
             <p className="text-body-secondary">
-             I enjoy product-oriented thinking and staying open-minded by engaging in conversations, listening to different perspectives, and asking questions.
-            </p>
-            <p className="text-body-secondary">
-              You can <a className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="mailto:sai@kanth.in">
+              Open to conversations around tech, research, startups, and opportunities.
+            <br />
+              You can reach me via <a className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="mailto:sai@kanth.in">
                 email
-              </a> me directly or reach out on <a className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://linkedin.com/in/saisrikanths">
-                linkedin
+              </a> or <a className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://linkedin.com/in/saisrikanths">
+                Linkedin
               </a>, I’d love to hear from you!
             </p>
             

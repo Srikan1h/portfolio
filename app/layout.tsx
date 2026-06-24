@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Sai Srikanth — Software Engineer, Competitive Programmer, Builder.",
+    "Computer Science student exploring software engineering, machine learning research, and early-stage ventures. Research Intern at NITK Surathkal.",
 
   keywords: [
     "Sai Srikanth",
@@ -28,6 +28,12 @@ export const metadata: Metadata = {
     "Web Developer",
     "Machine Learning",
     "Portfolio",
+    "student",
+    "research",
+    "startups",
+    "yc",
+    "AI",
+    "Machine learning"
   ],
 
   authors: [{ name: "Sai Srikanth" }],
@@ -40,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sai Srikanth",
     description:
-      "Software Engineer and Competitive Programmer.",
+      "Computer Science student exploring software engineering, machine learning research, and early-stage ventures. Research Intern at NITK Surathkal.",
     url: "https://kanth.in",
     siteName: "Sai Srikanth",
     type: "website",
@@ -50,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sai Srikanth",
     description:
-      "Software Engineer and Competitive Programmer.",
+      "Computer Science student exploring software engineering, machine learning research, and early-stage ventures. Research Intern at NITK Surathkal.",
   },
 
   icons: {
