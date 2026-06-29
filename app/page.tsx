@@ -3,9 +3,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="text-sm fw-normal">
-      <section className = "about pb-2">
-        <div>          
+      <section className = "about pb-1">
+        <div className="pb-2">
           <span className="text-dark fw-normal fs-5">About</span>
+        </div>
+        <div>          
           
           <p className="text-body-secondary">Computer Science student with interests in software engineering, machine learning, and <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="https://capital.kanth.in">
                 investing
@@ -53,8 +55,10 @@ export default function Home() {
               </div>
             </section> */}
 
-            <section className="passion py-2">
-              <span className="text-dark fw-normal fs-5">A few Highlights</span>
+            <section className="passion py-1">
+              <div className="pb-2">
+                <span className="text-dark fw-normal fs-5">A few Highlights</span>
+              </div>
               <div>
                 {/* <p className = "text-body-secondary">
               In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://softmerise.github.io">
@@ -74,16 +78,19 @@ export default function Home() {
 
           
 
-          <section className="contact pb-3">
-            <span className="text-dark fw-normal fs-5">Get in touch</span>
+          <section className="contact pb-2">
+            <div className="pb-2">
+              <span className="text-dark fw-normal fs-5">Get in touch</span>
+            </div>
             
             <p className="text-body-secondary">
               Open to conversations around tech, research, startups, and opportunities.
-            <br />
+           <br />
+            <span className="text-body-secondary mt-sm-2">
               You can reach me via <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="mailto:sai@kanth.in">
                 email
               </a>, I’d love to hear from you!
-            </p>
+            </span></p>
             
           </section>
 
