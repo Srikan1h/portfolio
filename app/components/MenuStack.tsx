@@ -7,7 +7,7 @@ function MenuStack() {
 
   <nav className ="navbar navbar-expand-lg ">
     <div className ="container col-12 col-lg-4 px-3">
-    <a className ="navbar-brand fs-4 fw-medium" href="/">Sai Srikanth</a>
+    <a className ="navbar-brand fs-4 fw-normal" href="/">Sai Srikanth</a>
 
     
 
@@ -26,7 +26,8 @@ function MenuStack() {
   <div className="offcanvas-body py-0">
     <nav className="nav flex-column">
   <a className="nav-link text-dark px-0" href="/thoughts">Thoughts</a>
-  
+  <a className="nav-link text-dark px-0" href="https://linkedin.com/in/saisrikanths">Linkedin</a>
+
   <a className="nav-link text-dark px-0" href="https://github.com/srikan1h">Github</a>
 
   <a className="nav-link text-dark px-0" href="https://x.com/srikan1h">
@@ -43,16 +44,19 @@ function MenuStack() {
 
 
     <div className ="collapse navbar-collapse" id="navbarNav">
-      <ul className ="navbar-nav ms-auto pt-1">
+      <ul className ="navbar-nav ms-auto pt-1 pe-1">
         <li className ="nav-item ms-md-4">
-          <a className ="mx-1 link-dark link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="/thoughts">Thoughts</a>
+          <a className ="mx-1 link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="/thoughts">Thoughts</a>
         </li>
         <li className ="nav-item ms-md-4">
-          <a className ="mx-1 link-dark link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="https://github.com/srikan1h">Github</a>
+          <a className ="mx-1 link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="https://linkedin.com/in/saisrikanths">Linkedin</a>
         </li>
         <li className ="nav-item ms-md-4">
-          <a className ="mx-1 link-dark link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="https://x.com/srikan1h">
-          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" className="bi bi-twitter-x text-dark mb-1 me-1" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path></svg></a>
+          <a className ="mx-1 link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="https://github.com/srikan1h">Github</a>
+        </li>
+        <li className ="nav-item ms-md-4">
+          <a className ="mx-1 link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="https://x.com/srikan1h">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" className="bi bi-twitter-x text-secondary mb-1 me-1" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"></path></svg></a>
         </li>
 
       </ul>
