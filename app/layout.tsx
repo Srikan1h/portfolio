@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     "Computer Science student exploring software engineering, machine learning research, and early-stage ventures. Research Intern at NITK Surathkal.",
 
   keywords: [
+    "kanth",
+    "kanth capital",
+    "Kanth.in",
+    "Srikanth",
+    "sai",
+    "sai srikanth s",
     "Sai Srikanth",
     "Software Engineer",
     "Founder",

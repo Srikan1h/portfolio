@@ -68,7 +68,7 @@ export default function Home() {
 
             <p className="text-body-secondary">
 
-              I've built and won multiple hackathons, including 🥇 first-place finishes at Smart India Hackathon 2022, IIT Bombay Techfest 2024,  SRMIST Digithon 3.0 2026, among others.
+              I've won multiple hackathons, including 🥇 first-place finishes at Smart India Hackathon 2022, IIT Bombay Techfest 2024,  SRMIST Digithon 3.0 2026, among others.
             </p>
 
               {/* <p className="text-body-secondary">
