@@ -5,7 +5,7 @@ export default function Home() {
     <div className="text-sm fw-normal">
       <section className = "about pb-1">
         <div className="pb-2">
-          <span className="text-dark fw-normal fs-5">About</span>
+          <span className="text-dark fw-normal fs-5">About me</span>
         </div>
         <div>          
           

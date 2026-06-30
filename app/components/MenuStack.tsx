@@ -5,8 +5,8 @@ import Link from "next/link";
 function MenuStack() {
   return (
 
-  <nav className ="navbar navbar-expand-lg ">
-    <div className ="container col-12 col-lg-4 px-3">
+  <nav className ="navbar navbar-expand-lg  ">
+    <div className ="container col-12 col-md-11 col-lg-8 col-xl-4 p-lg-3 pb-1 border-bottom">
     <a className ="navbar-brand fs-4 fw-normal" href="/">Sai Srikanth</a>
 
     
@@ -20,7 +20,7 @@ function MenuStack() {
 
 <div className="offcanvas offcanvas-end d-lg-none px-3" tabIndex={-1} id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div className="offcanvas-header">
-    <span className="offcanvas-title fs-3 fw-medium" id="offcanvasRightLabel">Sai Srikanth</span>
+    <span className="offcanvas-title fs-4 fw-normal" id="offcanvasRightLabel">Sai Srikanth</span>
     <button type="button" className="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div className="offcanvas-body py-0">

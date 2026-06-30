@@ -94,12 +94,12 @@ export default function RootLayout({
       </head>
       
 
-      <body className={`${inter.variable} mx-auto antialiased google-sans-flex-light py-2`}>
+      <body className={`${inter.variable} mx-auto antialiased google-sans-flex-light py-lg-2 lh-lg`}>
         <header>
           <MenuStack />
         </header>
 
-        <main className="container col-12 col-lg-4 google-sans-flex-light p-3">{children}</main>
+        <main className="container col-12 col-md-11 col-lg-8 col-xl-4 p-3">{children}</main>
 
         {/* <footer>
           <Footer />
