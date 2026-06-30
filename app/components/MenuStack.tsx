@@ -5,7 +5,7 @@ import Link from "next/link";
 function MenuStack() {
   return (
 
-  <nav className ="navbar navbar-expand-lg  ">
+  <nav className ="navbar navbar-expand-lg bg-white">
     <div className ="container col-12 col-md-11 col-lg-8 col-xl-4 p-lg-3 pb-1 border-bottom">
     <a className ="navbar-brand fs-4 fw-normal" href="/">Sai Srikanth</a>
 

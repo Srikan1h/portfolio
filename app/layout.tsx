@@ -95,7 +95,7 @@ export default function RootLayout({
       
 
       <body className={`${inter.variable} mx-auto antialiased google-sans-flex-light py-lg-2 lh-lg`}>
-        <header>
+        <header className="sticky-top">
           <MenuStack />
         </header>
 
