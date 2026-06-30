@@ -84,13 +84,12 @@ export default function Home() {
             </div>
             
             <p className="text-body-secondary">
-              Open to conversations around tech, research, startups, and opportunities.
-           <br />
-            <span className="text-body-secondary mt-sm-2">
-              You can reach me via <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="mailto:sai@kanth.in">
-                email
-              </a>, I’d love to hear from you!
-            </span></p>
+    
+            
+              Open to conversations around tech, research, startups, and new opportunities. Feel free to reach out via <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="mailto:sai@kanth.in">
+                 email
+              </a>.
+            </p>
             
           </section>
 
