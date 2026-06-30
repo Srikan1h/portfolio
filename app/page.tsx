@@ -86,7 +86,7 @@ export default function Home() {
             <p className="text-body-secondary">
     
             
-              Open to conversations around tech, research, startups, and new opportunities. Feel free to reach out via <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="mailto:sai@kanth.in">
+              Open to conversations around tech, research, startups, and new opportunities. Feel free to reach me out via <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="mailto:sai@kanth.in">
                  email
               </a>.
             </p>
