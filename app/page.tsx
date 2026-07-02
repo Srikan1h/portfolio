@@ -21,7 +21,7 @@ export default function Home() {
               Previously, I built the client inquiry pipeline and blogging platform for <a href="https://www.linkedin.com/company/trombaytrading" className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-50-hover">Trombay Trading LLP</a>, an international exporter, from the ground up.
             </li>
             <li className="pb-0">
-During high school, I co-built and launched a web platform serving a network of 150+ private CBSE schools across South Tamil Nadu.            </li>
+Before university, I co-built and launched a web platform serving a network of 150+ private CBSE schools across South Tamil Nadu.            </li>
           </ul>
 
         </div>
