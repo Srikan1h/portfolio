@@ -2,8 +2,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="text-sm fw-normal">
-      <section className = "about pb-1">
+    <div className="fw-normal">
+
+      <section className = "about pb-2">
         <div className="pb-2">
           <span className="text-dark fw-normal fs-5">About me</span>
         </div>
@@ -54,7 +55,7 @@ Before university, I co-built and launched a web platform serving a network of 1
               </div>
             </section> */}
 
-            <section className="passion py-1">
+            <section className="passion pb-2">
               <div className="pb-2">
                 <span className="text-dark fw-normal fs-5">A few Highlights</span>
               </div>

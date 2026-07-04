@@ -6,7 +6,7 @@ function MenuStack() {
   return (
 
   <nav className ="navbar navbar-expand-lg bg-white">
-    <div className ="container col-12 col-md-11 col-lg-8 col-xl-4 p-lg-3 pb-1 border-bottom">
+    <div className ="container col-12 col-md-11 col-lg-8 col-xl-4 px-lg-3">
     <a className ="navbar-brand fs-4 fw-normal" href="/">Sai Srikanth</a>
 
     
@@ -44,7 +44,7 @@ function MenuStack() {
 
 
     <div className ="collapse navbar-collapse" id="navbarNav">
-      <ul className ="navbar-nav ms-auto pt-1 pe-1">
+      <ul className ="navbar-nav ms-auto pe-1">
         <li className ="nav-item ms-md-4">
           <a className ="mx-1 link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="/thoughts">Thoughts</a>
         </li>
