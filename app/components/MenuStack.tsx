@@ -6,7 +6,7 @@ function MenuStack() {
   return (
 
   <nav className ="navbar navbar-expand-lg bg-white">
-    <div className ="container col-12 col-md-11 col-lg-8 col-xl-4 px-lg-3">
+    <div className ="container col-12 col-md-11 col-lg-8 col-xl-4 px-lg-3 px-4">
     <a className ="navbar-brand fs-4 fw-normal" href="/">Sai Srikanth</a>
 
     

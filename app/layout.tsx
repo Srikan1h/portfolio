@@ -99,7 +99,7 @@ export default function RootLayout({
           <MenuStack />
         </header>
 
-        <main className="container col-12 col-md-11 col-lg-8 col-xl-4 px-3">{children}</main>
+        <main className="container col-12 col-md-11 col-lg-8 col-xl-4 px-lg-3 px-4">{children}</main>
 
         {/* <footer>
           <Footer />
