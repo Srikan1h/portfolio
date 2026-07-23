@@ -5,26 +5,13 @@ export default function Home() {
     <div className="fw-normal">
 
       <section className = "about pb-2">
-        <div className="pb-2">
-          <span className="text-dark fw-normal fs-5">About me</span>
-        </div>
         <div>          
+          <p className="">
+            I'm building <a href="https://twinly.tech">Twinly</a> for Windows while studying CS at SRM Institute of Science and Technology KTR, where I'm part of <a href="https://nexttechlab.in">Next Tech Lab</a>.
+          </p>
           
-          <p className="text-body-secondary">Computer Science student with interests in software engineering, machine learning, and <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="https://capital.kanth.in">
-                investing
-              </a>.</p>
-
-          <ul className="text-body-secondary ps-4">
-            <li className="pb-2">
-              Currently, I'm a Research Intern at <a href="https://www.linkedin.com/school/nitk-surathkal/" className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-50-hover">NITK Surathkal</a>, exploring Deep Image Prior and Transformer-based image restoration techniques.
-            </li>
-            <li className="pb-2">
-              Previously, I built the client inquiry pipeline and blogging platform for <a href="https://www.linkedin.com/company/trombaytrading" className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-50-hover">Trombay Trading LLP</a>, an international exporter, from the ground up.
-            </li>
-            <li className="pb-0">
-Before university, I co-built and launched a web platform serving a network of 150+ private CBSE schools across South Tamil Nadu.            </li>
-          </ul>
-
+          <p className="">In the past, I've enjoyed working on Deep Image Prior research for restoring historical palm-leaf manuscripts at NITK Surathkal, building an education platform for a consortium of 150+ schools, winning multiple national-level hackathons, and serving in student leadership roles.</p>
+          
         </div>
       </section>
         
@@ -55,7 +42,7 @@ Before university, I co-built and launched a web platform serving a network of 1
               </div>
             </section> */}
 
-            <section className="passion pb-2">
+{/*             <section className="passion pb-2">
               <div className="pb-2">
                 <span className="text-dark fw-normal fs-5">A few Highlights</span>
               </div>
@@ -64,7 +51,7 @@ Before university, I co-built and launched a web platform serving a network of 1
               In the AI era, the bottleneck for most businesses isn’t ideas but, it’s execution across their digital journey. {" "}<a className="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="https://softmerise.github.io">
                 Softmerise
               </a>{" "} is my current attempt at reducing that friction.
-            </p> */}
+            </p> 
 
             <p className="text-body-secondary">
 
@@ -72,23 +59,15 @@ Before university, I co-built and launched a web platform serving a network of 1
             </p>
 
               {/* <p className="text-body-secondary">
-              Throughout these experiences, I've learned to work with lean teams, move quickly, align with people around a shared goal, and turn ideas into real products.</p> */}
+              Throughout these experiences, I've learned to work with lean teams, move quickly, align with people around a shared goal, and turn ideas into real products.</p> 
             </div>
-          </section>
+          </section> */}
 
           
 
           <section className="contact pb-2">
-            <div className="pb-2">
-              <span className="text-dark fw-normal fs-5">Get in touch</span>
-            </div>
-            
-            <p className="text-body-secondary">
-    
-            
-              Open to conversations around tech, research, startups, and new opportunities. Feel free to reach me out via <a className="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover" href="mailto:sai@kanth.in">
-                 email
-              </a>.
+            <p className="">
+              Connect with me on <a href="https://linkedin.com/in/saisrikanths">linkedIn</a>,  <a href="https://github.com/srika1h">github</a> , <a href="https://x.com/srika1h">x</a> , or at sai[at]kanth[dot]in .
             </p>
             
           </section>

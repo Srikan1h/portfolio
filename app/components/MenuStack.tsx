@@ -7,12 +7,12 @@ function MenuStack() {
 
   <nav className ="navbar navbar-expand-lg bg-white">
     <div className ="container col-12 col-md-11 col-lg-8 col-xl-4 px-lg-3 px-4">
-    <a className ="navbar-brand fs-4 fw-normal" href="/">Sai Srikanth</a>
+    <a className ="navbar-brand fs-2 fw-semibold" href="/">Sai Srikanth</a>
 
     
 
 
-<button className="btn btn-transparent text-decoration-underline d-lg-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+{/* <button className="btn btn-transparent text-decoration-underline d-lg-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
   <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
 </svg>
@@ -37,16 +37,16 @@ function MenuStack() {
 
 </nav>
   </div>
-</div>
+</div> */}
     
     
     
 
 
-    <div className ="collapse navbar-collapse" id="navbarNav">
+{/*     <div className ="collapse navbar-collapse" id="navbarNav">
       <ul className ="navbar-nav ms-auto pe-1">
         <li className ="nav-item ms-md-4">
-          <a className ="mx-1 link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="/thoughts">Thoughts</a>
+          <a className ="mx-1 fs-6 link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="/thoughts">Thoughts</a>
         </li>
         <li className ="nav-item ms-md-4">
           <a className ="mx-1 link-secondary link-offset-3 link-underline-opacity-0 link-underline-opacity-25-hover" href="https://linkedin.com/in/saisrikanths">Linkedin</a>
@@ -60,7 +60,7 @@ function MenuStack() {
         </li>
 
       </ul>
-    </div>
+    </div> */}
   </div>
 </nav>
 
