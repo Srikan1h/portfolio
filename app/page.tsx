@@ -10,7 +10,7 @@ export default function Home() {
             I'm building <a href="https://twinly.tech">Twinly</a> for Windows while studying CS at SRM Institute of Science and Technology KTR, where I'm part of <a href="https://nexttechlab.in">Next Tech Lab</a>.
           </p>
           
-          <p className="">In the past, I've enjoyed working on Deep Image Prior research for restoring historical palm-leaf manuscripts at NITK Surathkal, winning multiple national-level hackathons, building an education platform for a consortium of 150+ schools,  and serving in student leadership roles.</p>
+          <p className="">In the past, I've enjoyed researching Deep Image Prior for historical palm-leaf manuscript restoration at NITK Surathkal, winning multiple national-level hackathons, building an education platform for a consortium of 150+ schools,  and serving in student leadership roles.</p>
           
         </div>
       </section>
