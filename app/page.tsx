@@ -68,7 +68,7 @@ export default function Home() {
           <section className="contact pb-2">
             <p className="">
              Connect with me on <a href="https://linkedin.com/in/saisrikanths">LinkedIn</a>, <a href="https://github.com/srikan1h">GitHub</a>, <a href="https://x.com/srikan1h">X</a>,
-or via email at sai [at] kanth [dot] in.
+or at sai [at] kanth [dot] in.
             </p>
             
           </section>
