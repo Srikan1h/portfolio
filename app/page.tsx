@@ -7,7 +7,7 @@ export default function Home() {
       <section className = "about pb-2">
         <div>          
           <p className="">
-            I'm building <a href="https://twinly.tech">Twinly</a> for Windows while studying CS at SRM Institute of Science and Technology KTR, where I'm part of <a href="https://nexttechlab.in">Next Tech Lab</a>.
+            I'm building <a className="text-decoration-none" href="https://twinly.tech">Twinly</a> for Windows while studying CS at SRM Institute of Science and Technology KTR, where I'm part of <a className="text-decoration-none" href="https://nexttechlab.in">Next Tech Lab</a>.
           </p>
           
           <p className="past">In the past, I've enjoyed researching Deep Image Prior for historical palm-leaf manuscript restoration at NITK Surathkal, building an education platform adopted by a consortium of 150+ schools, competing in and winning multiple national-level hackathons, and serving in student leadership roles.</p>
@@ -67,7 +67,7 @@ export default function Home() {
 
           <section className="contact pb-2">
             <p className="">
-             Connect with me on <a href="https://linkedin.com/in/saisrikanths">LinkedIn</a>, <a href="https://github.com/srikan1h">GitHub</a>, <a href="https://x.com/srikan1h">X</a>,
+             Connect with me on <a className="text-decoration-none" href="https://linkedin.com/in/saisrikanths">LinkedIn</a>, <a className="text-decoration-none" href="https://github.com/srikan1h">GitHub</a>, <a className="text-decoration-none" href="https://x.com/srikan1h">X</a>,
 or at sai [at] kanth [dot] in.
             </p>
             
