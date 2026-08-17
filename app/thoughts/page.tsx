@@ -25,7 +25,7 @@ export default function ThoughtsPage() {
   return (
     <section>
       <div className="py-3">
-        <ul className="p-0 m-0">
+        <ul className="p-0 m-0 ">
           {sortedYears.map((year) =>
             groupedPosts[year].map((post, index) => (
               <ListItem

@@ -9,7 +9,6 @@ function MenuStack() {
     <div className ="container col-12 col-md-11 col-lg-8 col-xl-4 px-lg-3 px-4">
     <a className ="navbar-brand fs-2 fw-semibold" href="/">Sai Srikanth</a>
 
-    
 
 
 {/* <button className="btn btn-transparent text-decoration-underline d-lg-none p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
