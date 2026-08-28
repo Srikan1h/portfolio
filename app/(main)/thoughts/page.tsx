@@ -1,5 +1,5 @@
 import { getSortedPostsData, PostMeta } from "@/lib/posts";
-import ListItem from "../components/ListItem";
+import ListItem from "@/app/components/ListItem";
 
 export const metadata = {
   title: "Thoughts",
