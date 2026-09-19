@@ -11,7 +11,7 @@ export default function MainLayout({
         <MenuStack />
       </header>
 
-      <main className="container col-12 col-md-11 col-lg-8 col-xl-4 px-lg-3 px-4">
+      <main className="container col-12 col-md-11 col-lg-8 col-xl-4 px-lg-3 px-4 ">
         {children}
       </main>
     </div>

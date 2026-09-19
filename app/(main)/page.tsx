@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="fw-normal">
+    <div className="fw-normal ">
 
-      <section className = "about pb-2">
+      <section className = "about pb-2 " style={{ textAlign: 'justify' }}>
         <div>          
           <p className="">
             I'm building <a className="text-decoration-none" href="https://twinly.tech">Twinly</a> for Windows while studying Computer Science at SRM Institute of Science and Technology, KTR, where I was selected to be part of <a className="text-decoration-none" href="https://nexttechlab.in">Next Tech Lab</a>, a QS award-winning research lab.
