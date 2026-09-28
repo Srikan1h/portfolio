@@ -12,7 +12,7 @@ export default function ListItem({ post, year }: Props) {
   return (
     <li className="list-unstyled pb-3">
       <div className="d-flex align-items-baseline">
-        <div className="text-primary " style={{ width: '4.5rem', flexShrink: 0 }}>
+        <div className="text-primary" style={{ width: '4.5rem', flexShrink: 0 }}>
           {year ? year : ""}
         </div>
         <div className="flex-grow-1">
