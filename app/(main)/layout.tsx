@@ -8,7 +8,7 @@ export default function MainLayout({
 }) {
   return (
     
-      <div>
+      <div className="mx-auto">
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -26,7 +26,7 @@ export default function MainLayout({
      
 
       
-        <div className="col-12 col-lg-4">
+        <div className="col-12 col-lg-4 mx-auto">
           <header className="sticky-top">
             <MenuStack />
           </header>
