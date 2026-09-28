@@ -27,10 +27,12 @@ function MenuStack() {
       <span className="offcanvas-title text-secondary fs-4 chakra-petch-regular" id="offcanvasRightLabel">Sai Srikanth</span>
       <button type="button" className="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
-  <div className="offcanvas-body py-0">
+  <div className="offcanvas-body">
     <nav className="nav flex-column">
-      <a className="nav-link text-dark px-0" href="/thoughts">Thoughts</a>
-      <a className="nav-link text-dark px-0" href="/thoughts">Projects</a>
+      <a className="nav-link text-dark" href="/thoughts">Thoughts</a>
+      <a className="nav-link text-dark" href="/research">Research</a>
+      <a className="nav-link text-dark" href="/projects">Projects</a>
+
     </nav>
   </div>
 </div> 
@@ -47,7 +49,11 @@ function MenuStack() {
         </li>
 
         <li className ="nav-item ms-md-4">
-          <a className ="mx-1 link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover" href="/">Projects</a>
+          <a className ="mx-1 link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover" href="/research">Research</a>
+        </li>
+
+        <li className ="nav-item ms-md-4">
+          <a className ="mx-1 link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover" href="/projects">Projects</a>
         </li>
 
 
