@@ -1,4 +1,5 @@
 import MenuStack from "../components/MenuStack";
+import Footer from "../components/Footer";
 
 export default function MainLayout({
   children,
@@ -6,14 +7,39 @@ export default function MainLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="py-4 lh-lg">
-      <header className="sticky-top">
-        <MenuStack />
-      </header>
+    
+      <div>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+          rel="stylesheet"
+        />
 
-      <main className="container col-12 col-md-11 col-lg-8 col-xl-4 px-lg-3 px-4 ">
-        {children}
-      </main>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"></link>
+     
+
+      
+        <div className="col-12 col-lg-4">
+          <header className="sticky-top">
+            <MenuStack />
+          </header>
+
+          <main className="container">
+            {children}
+          </main>
+
+          <footer className="container">
+            <Footer/>
+          </footer>
+        </div>
+      
     </div>
   );
 }
