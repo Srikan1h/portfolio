@@ -11,7 +11,7 @@ export default function Home() {
           </p>
 
           <p>
-           Before starting my undergraduate studies, I built <a className="text-decoration-none" href="https://mathelogy.netlify.app/">Mathelogy</a> in 2021, while in 9th grade, a platform providing CBSE mathematics notes to students across multiple schools during the COVID-19 lockdowns. Later during my high school I co-developed an <a className="text-decoration-none" href="https://www.dakshinsahodaya.com/">education platform</a> as a founding engineer at <a className="text-decoration-none" href="https://www.linkedin.com/company/jezhtech">Jezh Technologies</a> (my first startup venture) which was adopted by a consortium of 150+ schools across South Tamil Nadu.
+            Before my undergrad, I built <a className="text-decoration-none" href="https://mathelogy.netlify.app/">Mathelogy</a> in 2021, while in 9th grade. It helped 200+ students across multiple schools access CBSE maths notes during the COVID lockdowns. Later during my high school I co-developed an <a className="text-decoration-none" href="https://www.dakshinsahodaya.com/">education platform</a> as a founding engineer at <a className="text-decoration-none" href="https://www.linkedin.com/company/jezhtech">Jezh Technologies</a> (my first startup venture) which was adopted by a consortium of 150+ schools across South Tamil Nadu.
           </p>
           
           <p className="past">
