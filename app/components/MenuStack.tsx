@@ -30,8 +30,7 @@ function MenuStack() {
   <div className="offcanvas-body py-0">
     <nav className="nav flex-column">
       <a className="nav-link text-dark px-0" href="/thoughts">Thoughts</a>
-      <a className="nav-link text-dark px-0" href="/research">Research</a>
-      <a className="nav-link text-dark px-0" href="/projects">Projects</a>
+      <a className="nav-link text-dark px-0" href="/work">Work</a>
 
     </nav>
   </div>
@@ -49,13 +48,8 @@ function MenuStack() {
         </li>
 
         <li className ="nav-item ms-md-4">
-          <a className ="mx-1 link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover" href="/research">Research</a>
+          <a className ="mx-1 link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover" href="/work">Work</a>
         </li>
-
-        <li className ="nav-item ms-md-4">
-          <a className ="mx-1 link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-25-hover" href="/projects">Projects</a>
-        </li>
-
 
       </ul>
     </div> 
