@@ -26,16 +26,16 @@ export default function MainLayout({
      
 
       
-        <div className="col-12 col-lg-4 mx-auto">
+        <div className="min-vh-100 d-flex flex-column">
           <header className="sticky-top">
             <MenuStack />
           </header>
 
-          <main className="container">
+          <main className="main">
             {children}
           </main>
 
-          <footer className="container">
+          <footer className="footer mt-auto">
             <Footer/>
           </footer>
         </div>

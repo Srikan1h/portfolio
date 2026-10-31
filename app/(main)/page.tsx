@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="fw-normal ">
+    <div className="container fw-normal col-12 col-lg-5 mx-auto py-4">
 
-      <section className = "about pb-2" style={{ textAlign: 'justify' }}>
+      <section className = "about" style={{ textAlign: 'justify' }}>
         <div className="noto-serif-light">          
           <p>
             I'm a Computer Science undergrad at SRM Institute of Science and Technology, KTR, where I was selected to be part of <a className="text-decoration-none" href="https://nexttechlab.in">Next Tech Lab</a>, a QS award-winning research lab.
