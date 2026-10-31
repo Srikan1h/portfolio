@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="container fw-normal col-12 col-lg-5 mx-auto py-4">
+    <div className="container fw-normal col-12 col-lg-5 mx-auto pt-4">
 
       <section className = "about" style={{ textAlign: 'justify' }}>
         <div className="noto-serif-light">          
