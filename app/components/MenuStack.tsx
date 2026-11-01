@@ -23,7 +23,7 @@ function MenuStack() {
   id="offcanvasRight"
   aria-labelledby="offcanvasRightLabel"
 >
-    <div className="offcanvas-header">
+    <div className="offcanvas-header border-bottom py-2 mb-2">
       <span className="offcanvas-title text-secondary fs-4 chakra-petch-regular" id="offcanvasRightLabel">Sai Srikanth</span>
       <button type="button" className="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
