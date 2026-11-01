@@ -1,10 +1,32 @@
 import Link from "next/link";
+import Image from "next/image";
+
 
 export default function Home() {
   return (
     <div className="container fw-normal col-12 col-lg-5 mx-auto pt-4">
 
       <section className = "about" style={{ textAlign: 'justify' }}>
+
+
+        <div className="clearfix">
+
+<Image
+  className="d-block mx-auto mx-md-0 float-md-end mb-3 ms-md-3"
+  src="/images/saipic.jpg"
+  alt="Profile photo"
+  width={300}
+  height={300}
+  style={{
+    width: "250px",
+    height: "auto",
+  }}
+/>
+
+
+
+
+       
         <div className="noto-serif-light">          
           <p>
             I'm a Computer Science undergrad at SRM Institute of Science and Technology, KTR, where I was selected to be part of <a className="text-decoration-none" href="https://nexttechlab.in">Next Tech Lab</a>, a QS award-winning research lab.
@@ -25,6 +47,7 @@ export default function Home() {
            I've also competed in and won multiple national-level hackathons, including <a href="https://www.sih.gov.in/" className="text-decoration-none">Smart India Hackathon</a> in 2022 and <a href="https://techfest.org/" className="text-decoration-none">Techfest </a>at IIT Bombay in 2024, and serving in student leadership roles.
           </p>
           
+        </div>
         </div>
       </section>
         
