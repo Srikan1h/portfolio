@@ -44,7 +44,7 @@ export default function Home() {
           </p>
 
           <p className="achievements">
-           I've also competed in and won multiple national-level hackathons, including <a href="https://www.sih.gov.in/" className="text-decoration-none">Smart India Hackathon</a> in 2022 and <a href="https://techfest.org/" className="text-decoration-none">Techfest </a>at IIT Bombay in 2024, and serving in student leadership roles.
+            I've won five hackathons, including national-level wins at <a href="https://www.sih.gov.in/" className="text-decoration-none">Smart India Hackathon</a> in 2022 and <a href="https://techfest.org/" className="text-decoration-none">Techfest, IIT Bombay</a> in 2024,  while also serving in student leadership roles.
           </p>
           
         </div>
